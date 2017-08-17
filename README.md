@@ -8,7 +8,9 @@
 
 ###### OSI Wiki : [https://zoums.github.io/](https://zoums.github.io/)
 
-###### OSI BOOK ： https://zoums.gitbooks.io/
+###### OSI BOOK ： [https://zoums.gitbooks.io/](https://zoums.gitbooks.io/)
+
+###### 祝各位好运，本人明年要高考，编纂进度慢比牛。。。。。。。。。。。。。。蜗牛。 再吐槽句。。GItbook真好用。。。。
 
 
 
