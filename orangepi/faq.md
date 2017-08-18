@@ -14,9 +14,7 @@ Q:zero plus2 H5装了ubuntu server后十分钟黑屏怎么办\(还装了X图形\
 
 > A: 执行setterm -blank 0 如果setterm -blank 0失效则在cmdline定义consoleblank=0即可。H5系列在boot分区下有uEnv.txt，加入一句optargs=consoleblank=0 如果已有optags参数定义，再其后加参数即可。。。至于x图形那边，用xset工具，执行xset –dpms 看看。。。。
 
-
-
-似乎Gitbook能在每条右侧接近右侧调出讨论的地方。。。要问问题的放那没毛病吧？或者你可以Fork然后发pull request\(程序员姿势\)
+似乎Gitbook能在每条右侧接近右侧调出讨论的地方。。。对哪句不满的可以发表下意见，或者你可以Fork然后发pull request\(程序员姿势\)
 
 ![](/assets/import.png)![](/assets/import1.png)
 
