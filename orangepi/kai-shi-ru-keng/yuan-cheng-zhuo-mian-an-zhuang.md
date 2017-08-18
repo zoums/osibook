@@ -20,3 +20,23 @@ vncserver :1 -geometry 1024x768 -depth 16 -pixelformat rgb565
 
 （注意，如果安装时提示找不到字体，可以参考本章第二篇，如果还有错误，请运行sudo apt-get update更新下软件源再尝试安装）
 
+4、如果连接VNC灰屏，一般是桌面环境挂了或者没法启动。。可以配置~/.vnc/xstartup文件，再其后修改添加桌面环境的启动参数，下面列出一些桌面环境的启动参数。
+
+GNOME
+
+```
+gnome-session &
+```
+
+XFCE4
+
+```
+x-session-manager & xfdesktop & xfce4-panel &  
+xfce4-menu-plugin &  
+xfsettingsd &  
+xfconfd &  
+xfwm4 &  
+```
+
+
+
