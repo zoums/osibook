@@ -20,4 +20,5 @@
   * [修改OTG口模式为device（主要是安卓）](orangepi/kai-shi-ru-keng/xiu-gai-otg-kou-mo-shi-wei-device-ff08-zhu-yao-shi-an-zhuo-ff09.md)
   * [OTG口在Linux的使用\(H3\)](orangepi/kai-shi-ru-keng/otgkou-zai-linux-de-shi-752828-h3.md)
 * [附录1（各种收集）](orangepi/fu-lu-1.md)
+  * [Ubuntu15以上mkfs.ext4与旧版本不兼容解决](orangepi/fu-lu-1/ubuntu15yi-shang-mkfs-ext4-yu-jiu-ban-ben-bu-jian-rong-jie-jue.md)
 
