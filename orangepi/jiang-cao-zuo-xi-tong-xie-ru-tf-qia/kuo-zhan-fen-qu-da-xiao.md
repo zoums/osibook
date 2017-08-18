@@ -11,5 +11,17 @@ wget https://raw.githubusercontent.com/OrangePiLibra/OrangePiH5_scripts/master/p
 sh resize_rootfs.sh
 ```
 
+脚本处有定义是哪个设备分区的，如果通过fdisk看到是单分区的可以修改这里
+
+![](/assets/kuo.png)
+
+改成
+
+```
+
+DEVICE="/dev/mmcblk0"
+PART="1"
+```
+
 
 
