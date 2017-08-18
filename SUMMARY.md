@@ -14,6 +14,6 @@
 * [开始入坑](orangepi/kai-shi-ru-keng.md)
   * [dtc工具转换dts与dtb](orangepi/kai-shi-ru-keng/dtcgong-ju-zhuan-huan-dts-yu-dtb.md)
   * [设置 tight VNC Server 为开机启动￼](orangepi/kai-shi-ru-keng/vnc.md)
-* [香橙派关机键设置\[Linux\(H3\)\]](orangepi/jiang-cao-zuo-xi-tong-xie-ru-tf-qia/xiang-cheng-pai-guan-ji-jian-she-zhi.md)
+  * [香橙派关机键设置\[Linux\(H3\)\]](orangepi/kai-shi-ru-keng/powerkey.md)
 * [附录1（各种收集）](orangepi/fu-lu-1.md)
 
