@@ -26,6 +26,8 @@ screen0_output_mode
 
 script.bin直接改数字。
 
+找不到script.fex的可以去[https://github.com/armbian/build/tree/master/config/fex](https://github.com/armbian/build/tree/master/config/fex)
+
 dtb文件得把参数转换为16进制数。
 
 H5/A64还可以装sunxi-disp-tool看看（虽然官方H5的测试失败）
