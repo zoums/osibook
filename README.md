@@ -14,9 +14,9 @@
 
 ###### 再吐槽句。。GItbook真好用。。。。
 
+---
+
 ##### 如果觉得这里对你有所帮助，可以用支付宝扫描下面二维码的方式捐助，谢谢您的支持！
 
 [点我扫描二维码进行捐助](https://raw.githubusercontent.com/zoums/zoums.github.io/master/amWiki/images/1498295200113.jpg)
-
-
 
