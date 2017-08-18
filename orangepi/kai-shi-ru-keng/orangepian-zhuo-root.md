@@ -1,4 +1,4 @@
-OrangePi安卓root
+# OrangePi安卓root
 
 H3
 
@@ -86,6 +86,4 @@ sh update-binary 0 1 /data/local/tmp/UPDATE-SuperSU-v2.46.zip
 ADB及OTG驱动
 
 链接: [http://pan.baidu.com/s/1miHX72C](http://pan.baidu.com/s/1miHX72C) 密码: gydt
-
-
 
