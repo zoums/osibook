@@ -46,5 +46,7 @@ sunxi-disp-tool switch -name 1280x720p60
 optargs=disp.screen0_output_mode=720p60
 ```
 
+找不到sunxi-disp-tool的可以去 [https://launchpad.net/~longsleep/+archive/ubuntu/ubuntu-pine64-flavour-makers 或](https://launchpad.net/~longsleep/+archive/ubuntu/ubuntu-pine64-flavour-makers)者自己编译 [https://github.com/longsleep/sunxi-disp-tool](https://github.com/longsleep/sunxi-disp-tool)
+
 
 
