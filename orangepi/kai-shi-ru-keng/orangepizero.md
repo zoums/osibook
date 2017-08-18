@@ -40,5 +40,11 @@
 | ![](/assets/opiz-pins-26-0.jpg) |
 | CON4定义![](/assets/opiz-pins-26-1.png) |
 
+* [OPI官网](http://www.orangepi.cn)
+* [官方Github](https://github.com/orangepi-xunlong)
+* [官方中文论坛](http://www.orangepi.cn/orangepibbscn)
+* [官方英文论坛](http://www.orangepi.org/orangepibbsen)
+* [Orange Pi Zero 原理图](https://linux-sunxi.org/File:Orange-Pi-Zero-Schanetics-v1_11.pdf)
+
 
 
