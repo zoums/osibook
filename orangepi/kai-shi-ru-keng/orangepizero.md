@@ -27,11 +27,11 @@
 
 | 视频 | CVBS \(在CON5的13pin上\) |
 | :--- | :--- |
-| Audio | microphone, stereo line-out on pin headers |
-| Network | 10/100Mbps Ethernet and[XR819 Wi-Fi](http://linux-sunxi.org/Wifi#Allwinner) |
-| Storage | µSD, optional SPI NOR Flash on board |
-| USB | 1 USB 2.0 Host, 1 USB 2.0 OTG, 2 x USB 2.0 on pin headers |
-| Other | [CIR](http://linux-sunxi.org/CIR)on pin headers |
+| 音频 | 输入：麦克风；输出：line-out 在13PIN上 |
+| 网络 | 10/100Mbps自适应网口以及[XR819 Wi-Fi](http://linux-sunxi.org/Wifi#Allwinner) |
+| 储存 | SD卡, 板上SPI NOR Flash（出厂焊好，大小2M） |
+| USB | 1 USB 2.0 Host, 1 USB 2.0 OTG, 2 x USB 2.0 在13PIN上 |
+| 其他 | [CIR](http://linux-sunxi.org/CIR)on pin headers |
 
 
 
