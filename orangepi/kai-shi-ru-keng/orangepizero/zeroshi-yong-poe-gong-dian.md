@@ -3,8 +3,8 @@
 Zero带有POE供电，但是！它是非标准的POE供电，板子上如图两个空焊位可以用来焊接接通的电阻，默认留空以防意外。
 
 ```
-4/5	PoE+	R29	0 Ohm	5V
-7/8	PoE-	R358	0 Ohm	GND
+4/5    PoE+    R29    0 Ohm    5V
+7/8    PoE-    R358    0 Ohm    GND
 ```
 
 通过将零欧姆电阻焊接到R29和R358接通PoE，可以使用5V来为板供电。注意，由于电缆电阻太高，电压会下降，5V不会在很远的距离上工作\(大于4m\)。
@@ -18,4 +18,6 @@ Zero带有POE供电，但是！它是非标准的POE供电，板子上如图两�
 ![](/assets/zeropoe1.png)
 
 不过如果你想让Zero为其他5v的POE设备供电，也可以参考前面第一张图焊接上0欧姆的电阻以及接通GPIO或者microusb的电源来往POE供电。
+
+Zero上并不会有相关连通POE的协议，所以这也没办法和其他POE交换机进行工作。它也不支持802.3af/A，你可能需要一个TP-LINK的TL-POE10R [http://www.tp-link.com/us/products/details/TL-POE10R.html](http://www.tp-link.com/us/products/details/TL-POE10R.html)来与交换机连接，然后设置成5v输出，然后与ZERO连通。
 
