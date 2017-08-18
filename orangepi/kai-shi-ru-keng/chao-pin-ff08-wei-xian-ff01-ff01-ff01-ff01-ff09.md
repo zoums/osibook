@@ -8,10 +8,6 @@
 | :--- | :--- |
 |  |  |
 
-
-
-;
-
 ; pmuic\_type:0:none, 1:gpio, 2:i2c
 
 ; pmu\_gpio0: gpio config.
