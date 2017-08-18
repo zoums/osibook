@@ -33,6 +33,7 @@
   * [给安卓添加红外遥控](orangepi/kai-shi-ru-keng/gei-an-zhuo-tian-jia-hong-wai-yao-kong.md)
   * [PC2的C语言点亮LED程序](orangepi/kai-shi-ru-keng/pc2de-c-yu-yan-dian-liang-led-cheng-xu.md)
   * [OPI十分钟黑屏解决方法](orangepi/kai-shi-ru-keng/opishi-fen-zhong-hei-ping-jie-jue-fang-fa.md)
+* [玩家](orangepi/wan-jia.md)
 * [OrangePiZero](orangepi/kai-shi-ru-keng/orangepizero.md)
   * [接口定义](orangepi/kai-shi-ru-keng/jie-kou-ding-yi.md)
   * [Zero使用POE供电](orangepi/kai-shi-ru-keng/orangepizero/zeroshi-yong-poe-gong-dian.md)
