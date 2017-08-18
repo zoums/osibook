@@ -28,5 +28,5 @@ script.bin直接改数字。
 
 dtb文件得把参数转换为16进制数。
 
-A64还可以装sunxi-disp-tools看看
+A64还可以装sunxi-disp-tool看看
 
