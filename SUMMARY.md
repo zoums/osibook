@@ -16,5 +16,6 @@
   * [设置 tight VNC Server 为开机启动￼](orangepi/kai-shi-ru-keng/vnc.md)
   * [香橙派关机键设置\[Linux\(H3\)\]](orangepi/kai-shi-ru-keng/powerkey.md)
   * [修改OTG口模式为device（主要是安卓）](orangepi/kai-shi-ru-keng/xiu-gai-otg-kou-mo-shi-wei-device-ff08-zhu-yao-shi-an-zhuo-ff09.md)
+* [进阶](orangepi/kai-shi-ru-keng/jin-jie.md)
 * [附录1（各种收集）](orangepi/fu-lu-1.md)
 
