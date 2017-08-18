@@ -25,5 +25,9 @@ ctl.!default {
 
 之后要保存配置,否则每次开机都要设置.终端输入命令
 
+```
 alsactl store -f /var/lib/alsa/asound.state
+```
+
+
 
