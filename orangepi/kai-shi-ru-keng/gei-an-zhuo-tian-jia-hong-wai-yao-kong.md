@@ -106,7 +106,7 @@ could not get driver version for /dev/input/mice, Not a typewriter
 key "键代码" “安卓命令”
 ```
 
-\(可参照之前备份的sunxi-ir.kl.bak\)。
+##### \(可参照之前备份的sunxi-ir.kl.bak\)。
 
 下面列出的是我用的键代码。然后保存这个配置文件并重新加载驱动来应用新的配置文件即可。
 
