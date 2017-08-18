@@ -16,7 +16,9 @@
 
 #### 发现有些平台的源码和镜像可以在这里下载到 : [http://filez.zoobab.com/](http://filez.zoobab.com/)
 
-##### 
+#### PC2的安卓 [http://pan.baidu.com/s/1i46sexB](http://pan.baidu.com/s/1i46sexB) 密码：nnnn
+
+#### H3Droid [https://h3droid.com/](https://h3droid.com/)
 
 
 
