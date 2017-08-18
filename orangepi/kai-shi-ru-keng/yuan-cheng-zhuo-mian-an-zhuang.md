@@ -22,13 +22,37 @@ vncserver :1 -geometry 1024x768 -depth 16 -pixelformat rgb565
 
 4、如果连接VNC灰屏，一般是桌面环境挂了或者没法启动。。可以配置~/.vnc/xstartup文件，再其后修改添加桌面环境的启动参数，下面列出一些桌面环境的启动参数。
 
+LXDE
+
+```
+startlxde &
+```
+
 GNOME
 
 ```
 gnome-session &
 ```
 
+或者
+
+```
+gnome-panel &
+
+gnome-settings-daemon &
+
+metacity &
+
+nautilus &
+```
+
 XFCE4
+
+```
+startxfce4 &
+```
+
+或者
 
 ```
 x-session-manager & xfdesktop & xfce4-panel &  
@@ -38,10 +62,17 @@ xfconfd &
 xfwm4 &
 ```
 
-也可以试试
+KDE
+
+```
+startkde &
+```
+
+上面都不行也可以试试
 
 ```
 sudochmod a+x /etc/X11/xinit/xinitrc
+sudo chmod +x ~/.vnc/xstartup
 ```
 
 修改完毕后可以执行如下命令关闭VNC再执行第三步的相应命令启动vnc再连接上去看看。
