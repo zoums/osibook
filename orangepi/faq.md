@@ -8,6 +8,10 @@ Q: 请问官方下载的Android源代码，固件的驱动都全吗，是不是�
 
 A:。。。没这么简单。。。你还要自己配置,比如内核配置部分，配置sys\_config.fex。。。全志的东西都这套路。。。
 
+Q:zero plus2 H5装了ubuntu server后十分钟黑屏怎么办？
+
+A: 执行setterm -blank 0 如果setterm -blank 0失效则在cmdline定义consoleblank=0即可。H5系列在boot分区下有uEnv.txt，加入一句optargs=consoleblank=0
+
 似乎Gitbook能在每条右侧接近右侧调出讨论的地方。。。要问问题的放那没毛病吧？或者你可以Fork然后发pull request\(程序员姿势\)
 
 ![](/assets/import.png)![](/assets/import1.png)
