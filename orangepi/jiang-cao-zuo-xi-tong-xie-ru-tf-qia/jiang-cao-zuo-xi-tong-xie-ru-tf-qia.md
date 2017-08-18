@@ -4,6 +4,8 @@
 
 ## 1、怎样将操作系统（除 Android 系统外）写入 TF 卡中 {#1-android-tf-}
 
+**注意！！！不能随意刷其他H3安卓盒子的镜像，特别是云OS，被锁Secure boot就不好了，虽然可能没被刷验证Key，但是你只能用TOC0引导了。。（被刷Key后只能用那系统了）**
+
 ---
 
 ### Windows: {#windows-}
