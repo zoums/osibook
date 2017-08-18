@@ -84,7 +84,7 @@
 
 ---
 
-## 2、Android 系统镜像文件写入 TF 卡 {#2-android-tf-}
+## 2、Android 系统镜像文件写入 TF 卡\(RDA的2G-IOT和I96不适用\) {#2-android-tf-}
 
 ### Android 系统镜像文件不能在 Linux 环境下使用 dd 命令或者在 Window 环境用 Win32 Diskimager 工具来写入 TF 卡。需要使用工具 PhoenixCard 来写入。 {#android-linux-dd-window-win32-diskimager-tf-phoenixcard-}
 
