@@ -12,6 +12,8 @@ Armbian一般用户名为root 密码为1234
 
 DietPi用户名为dietpi 密码为 dietpi
 
+其他的自己看相应系统官方说明。
+
 ---
 
 ### Windows: {#windows-}
