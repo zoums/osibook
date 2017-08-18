@@ -14,7 +14,7 @@ sudo apt-get install tightvncserver
 
 ![](/assets/clip_image004.jpg)
 
-3、通过vncserver或者vncserver:1\(vncserver:2\)……等开启一个或多个桌面， 也可以通过完整的命令传送更多参数，如
+3、通过vncserver或者vncserver :1\(vncserver :2\)……等开启一个或多个桌面， 也可以通过完整的命令传送更多参数，如
 
 vncserver :1 -geometry 1024x768 -depth 16 -pixelformat rgb565
 
@@ -35,8 +35,22 @@ x-session-manager & xfdesktop & xfce4-panel &
 xfce4-menu-plugin &  
 xfsettingsd &  
 xfconfd &  
-xfwm4 &  
+xfwm4 &
+```
+
+也可以试试
+
+```
+sudochmod a+x /etc/X11/xinit/xinitrc
+```
+
+修改完毕后可以执行如下命令关闭VNC再执行第三步的相应命令启动vnc再连接上去看看。
+
+```
+vncserver -kill :1
 ```
 
 
+
+还是失败你可以来波修复工具了/。。。比如锤子。。。。当然。。这是个玩笑。。。不过真的很有用。
 
