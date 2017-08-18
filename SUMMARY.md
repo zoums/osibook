@@ -20,6 +20,7 @@
   * [dtc工具转换dts与dtb](orangepi/kai-shi-ru-keng/dtcgong-ju-zhuan-huan-dts-yu-dtb.md)
   * [script.bin的配置与转换](orangepi/kai-shi-ru-keng/scriptbinde-pei-zhi-yu-zhuan-huan.md)
   * [微雪屏显示与HDMI转DVI支持](orangepi/kai-shi-ru-keng/hdmizhuan-dvi-zhi-chi.md)
+  * [Linux下3.5mm口tv输出支持](orangepi/kai-shi-ru-keng/linuxxia-3-5mm-kou-tv-shu-chu-zhi-chi.md)
   * [H3的mainline uboot启动bsp内核](orangepi/kai-shi-ru-keng/jin-jie/h3de-mainline-uboot-qi-dong-bsp-nei-he.md)
   * [修改OTG口模式为device（主要是安卓）](orangepi/kai-shi-ru-keng/xiu-gai-otg-kou-mo-shi-wei-device-ff08-zhu-yao-shi-an-zhuo-ff09.md)
   * [OTG口在Linux的使用\(H3\)](orangepi/kai-shi-ru-keng/otgkou-zai-linux-de-shi-752828-h3.md)
