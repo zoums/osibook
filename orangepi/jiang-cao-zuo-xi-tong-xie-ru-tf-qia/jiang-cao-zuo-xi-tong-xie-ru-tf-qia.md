@@ -4,7 +4,7 @@
 
 ---
 
-## 1、怎样将操作系统（除 Android 系统外）写入 TF 卡中 {#1-android-tf-}
+## 1、怎样将Linux操作系统（除 Android 系统外）写入 TF 卡中 {#1-android-tf-}
 
 OPI官方Linux类系统用户名一般为orangepi 或 root 密码为orangepi
 
