@@ -38,5 +38,12 @@ sudo systemctl --no-reload enable serial-getty@ttyGS0.service
 sudo echo "ttyGS0" >> $SDCARD/etc/securetty
 ```
 
+还不行加载模块
+
+```
+sudo modprobe g_serial
+sudo echo g_serial >> /etc/modules
+```
+
 
 
