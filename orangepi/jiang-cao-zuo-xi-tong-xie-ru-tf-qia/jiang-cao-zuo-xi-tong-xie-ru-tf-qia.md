@@ -1,6 +1,10 @@
 # 将操作系统写入 TF 卡 {#-tf-}
 
+---
+
 ## 1、怎样将操作系统（除 Android 系统外）写入 TF 卡中 {#1-android-tf-}
+
+---
 
 ### Windows: {#windows-}
 
@@ -44,6 +48,8 @@
 
 ##### iv. 镜像写入完成后，点击“Exit”按钮 {#iv-exit-}
 
+---
+
 ### Linux: {#linux-}
 
 #### a. 把 TF 卡插入电脑中，TF卡的容量必须比操作系统镜像大，通常需要 4GB或 更大的容量 {#a-tf-tf-4gb-}
@@ -76,9 +82,11 @@
 
 ##### iv. 运行 sudo dd bs=4M if=\[path\]/\[imagename\] of=/dev/sdx 命令去写入镜像文件。 耐心等待镜像写入。你可以使用 sudo pkill –USR1 –n –x dd 命令去查看烧写进度 {#iv-sudo-dd-bs-4m-if-path-imagename-of-dev-sdx-sudo-pkill-usr1-n-x-dd-}
 
+---
+
 ## 2、Android 系统镜像文件写入 TF 卡 {#2-android-tf-}
 
-### Android 系统镜像文件不能在 Linux 环境下使用 dd 命令或者在 Window 环 境用 Win32 Diskimager 工具来写入 TF 卡。需要使用工具 PhoenixCard 来写入。 {#android-linux-dd-window-win32-diskimager-tf-phoenixcard-}
+### Android 系统镜像文件不能在 Linux 环境下使用 dd 命令或者在 Window 环境用 Win32 Diskimager 工具来写入 TF 卡。需要使用工具 PhoenixCard 来写入。 {#android-linux-dd-window-win32-diskimager-tf-phoenixcard-}
 
 ### a. 下载 Android 系统和 PhoenixCard 烧写工具 {#a-android-phoenixcard-}
 
@@ -105,6 +113,8 @@
 #### Android 系统成功烧写完成后。单击“退出” 按钮，弹出 TF 卡。 {#android-tf-}
 
 ![](https://zoums.github.io/amWiki/images/001-01/image012.jpg "烧写完毕")
+
+---
 
 ## 3、 Armbian 镜像文件写入 TF 卡 {#3-armbian-tf-}
 
