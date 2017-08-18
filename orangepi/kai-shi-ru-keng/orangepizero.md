@@ -33,5 +33,11 @@
 | USB | 1 USB 2.0 Host, 1 USB 2.0 OTG, 2 x USB 2.0 在13PIN上 |
 | 其他 | [CIR](http://linux-sunxi.org/CIR)红外接收在13PIN上 |
 
+---
+
+| 接口定义 |
+| :--- |
+| ![](/assets/opiz-pins-26-0.jpg)![](/assets/opiz-pins-26-1.png) |
+
 
 
