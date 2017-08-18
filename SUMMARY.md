@@ -30,4 +30,5 @@
 * [附录1（各种收集）](orangepi/fu-lu-1.md)
   * [Ubuntu15以上mkfs.ext4与旧版本不兼容解决](orangepi/fu-lu-1/ubuntu15yi-shang-mkfs-ext4-yu-jiu-ban-ben-bu-jian-rong-jie-jue.md)
   * [制作initrd注意的](orangepi/fu-lu-1/zhizuo-initrd-zhu-yi-de.md)
+  * [我的镜像](orangepi/fu-lu-1/wo-de-jing-xiang.md)
 
