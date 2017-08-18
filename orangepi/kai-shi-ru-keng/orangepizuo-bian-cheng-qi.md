@@ -15,21 +15,21 @@ OrangePi的40PIN外设端口定义
 ```
 8765
 -----
-|   |
+|   |
 ○---
 1234
 ```
 
 | Pin \# |  |  | OrangePi |
 | :--- | :--- | :--- | :--- |
-| 1 |  |  | 24 |
-| 2 |  |  | 21 |
+| 1 |  | spi0\_cs | 24 |
+| 2 |  | spi0\_miso | 21 |
 | 3 |  |  | not used |
-| 4 |  |  | 25 |
-| 5 |  |  | 19 |
-| 6 |  |  | 23 |
+| 4 |  | gnd | 25 |
+| 5 |  | spi0\_mosi | 19 |
+| 6 |  | spi0\_clk | 23 |
 | 7 |  |  | not used |
-| 8 |  |  | 17 |
+| 8 |  | vcc3.3v | 17 |
 
 #### 
 
@@ -65,9 +65,6 @@ sudo ./flashrom -p linux_spi:dev=/dev/spidev0.0
 
 ![](http://www.orangepi.cn/orangepibbscn/data/attachment/forum/201607/22/125144jjz468n6stz6sgjm.jpg)
 
-  
-
-
 ![](http://www.orangepi.cn/orangepibbscn/data/attachment/forum/201607/22/125324uprprh77mmrpdpmp.jpg)
 
 然后开始刷写
@@ -86,8 +83,7 @@ Verifying flash... VERIFIED.
 
 以后电脑bios刷坏了也不怕了
 
-![](/assets/125359d8bk9y6x48qvog8z.jpg)  
-
+![](/assets/125359d8bk9y6x48qvog8z.jpg)
 
 | Pin | SPI Pin Name | Orangepi Pin |
 | :--- | :--- | :--- |
