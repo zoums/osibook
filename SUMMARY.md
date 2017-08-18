@@ -34,6 +34,7 @@
   * [PC2的C语言点亮LED程序](orangepi/kai-shi-ru-keng/pc2de-c-yu-yan-dian-liang-led-cheng-xu.md)
   * [OPI十分钟黑屏解决方法](orangepi/kai-shi-ru-keng/opishi-fen-zhong-hei-ping-jie-jue-fang-fa.md)
   * [OrangePiZero](orangepi/kai-shi-ru-keng/orangepizero.md)
+    * [接口定义](orangepi/kai-shi-ru-keng/jie-kou-ding-yi.md)
     * [Zero使用POE供电](orangepi/kai-shi-ru-keng/orangepizero/zeroshi-yong-poe-gong-dian.md)
 * [附录1（各种收集）](orangepi/fu-lu-1.md)
   * [Ubuntu15以上mkfs.ext4与旧版本不兼容解决](orangepi/fu-lu-1/ubuntu15yi-shang-mkfs-ext4-yu-jiu-ban-ben-bu-jian-rong-jie-jue.md)
