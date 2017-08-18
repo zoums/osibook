@@ -40,7 +40,7 @@ sudo echo "ttyGS0" >> $SDCARD/etc/securetty
 
 还不行加载模块
 
-```
+```bash
 sudo modprobe g_serial
 sudo echo g_serial >> /etc/modules
 ```
