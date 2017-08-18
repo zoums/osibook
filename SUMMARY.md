@@ -14,6 +14,7 @@
 * [开始入坑](orangepi/kai-shi-ru-keng.md)
   * [设置 tight VNC Server 为开机启动￼](orangepi/kai-shi-ru-keng/vnc.md)
   * [香橙派关机键设置\[Linux\(H3\)\]](orangepi/kai-shi-ru-keng/powerkey.md)
+  * [tightvncserver提示找不到字体](orangepi/kai-shi-ru-keng/tightvncserverti-shi-zhao-bu-dao-zi-ti.md)
 * [进阶](orangepi/kai-shi-ru-keng/jin-jie.md)
   * [dtc工具转换dts与dtb](orangepi/kai-shi-ru-keng/dtcgong-ju-zhuan-huan-dts-yu-dtb.md)
   * [H3的mainline uboot启动bsp内核](orangepi/kai-shi-ru-keng/jin-jie/h3de-mainline-uboot-qi-dong-bsp-nei-he.md)
