@@ -28,5 +28,21 @@ script.bin直接改数字。
 
 dtb文件得把参数转换为16进制数。
 
-A64还可以装sunxi-disp-tool看看
+H5/A64还可以装sunxi-disp-tool看看（虽然官方H5的测试失败）
+
+```
+sunxi-disp-tool switch -mode 0xa
+sunxi-disp-tool switch -mode 0x5
+sunxi-disp-tool switch -name 720p
+sunxi-disp-tool switch -name 1080p
+sunxi-disp-tool switch -name 1280x720p60
+```
+
+装了sunxi-disp-tool后可以修改/boot/uEnv.txt中添加参数，如果已有optargs参数，去掉这句optargs在uEnv的optargs已有参数后面加上，以空格隔开：
+
+```
+optargs=disp.screen0_output_mode=720p60
+```
+
+
 
