@@ -10,5 +10,7 @@
 * [1.烧写操作系统](orangepi/jiang-cao-zuo-xi-tong-xie-ru-tf-qia.md)
   * [将操作系统写入TF卡](orangepi/jiang-cao-zuo-xi-tong-xie-ru-tf-qia/jiang-cao-zuo-xi-tong-xie-ru-tf-qia.md)
   * [烧写系统到EMMC](orangepi/jiang-cao-zuo-xi-tong-xie-ru-tf-qia/shao-xie-xi-tong-dao-emmc.md)
+  * dtc转换dtb与dts
+* [开始入坑](orangepi/kai-shi-ru-keng.md)
 * [附录1（各种收集）](orangepi/fu-lu-1.md)
 
