@@ -17,5 +17,7 @@ tv_used=1
 
 4、如果还不能输出请在linux的/etc/modules加一行tv
 
-注：cvbs\_channel可以是1和0，分别对应FB1和0，如果是0，则其他参数是screen0\_output\_mode和screen0\_output\_type
+##### 注：cvbs\_channel可以是1和0，分别对应FB1和0，如果是0，则其他参数是screen0\_output\_mode和screen0\_output\_type
+
+
 
