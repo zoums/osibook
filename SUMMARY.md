@@ -33,3 +33,7 @@
   * [我的镜像](orangepi/fu-lu-1/wo-de-jing-xiang.md)
   * [OrangePi\_2G-IOT](orangepi/fu-lu-1/orangepi2g-iot.md)
 
+## Maya
+
+* [Maya快捷键大全](maya/mayakuai-jie-jian.md)
+
