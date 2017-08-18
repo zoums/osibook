@@ -12,15 +12,11 @@
 mount -o remount,rw /system
 ```
 
-
-
 现在打开终端模拟器并输入以下代码：
 
 ```
 su
 ```
-
-
 
 这个将使终端模拟器得到root。首先我们来修改遥控器的配置文件。打开你的文件管理器并进入/system/usr/keylayout挂载成读写，更改此目录下的sunxi-ir.kl成sunxi-ir.kl.bak以做备用及参照。你也可以在终端里执行如下命令实现上面的步骤：
 
@@ -29,16 +25,12 @@ mount -o remount,rw /system
 mv /system/usr/keylayout/sunxi-ir.kl /system/usr/keylayout/sunxi-ir.kl.bak
 ```
 
-
-
 然后在文件管理器里创建一个新的配置文件并命名为sunxi-ir.kl或执行如下命令：
 
 ```
 mount -o remount,rw /system
 echo new > /system/usr/keylayout/sunxi-ir.kl
 ```
-
-
 
 接下来要重新加载红外驱动以便更改配置。终端下执行如下命令：
 
@@ -47,9 +39,7 @@ rmmod sunxi_ir_rx
 insmod /vendor/modules/sunxi-ir-rx.ko
 ```
 
-注： 建议重启，似乎这样能正常点，重启记得做前两步。
-
-
+##### 注： 建议重启，似乎这样能正常点，重启记得做前两步。
 
 然后需要为遥控器添加配置文件，现在配置文件是空的。先执行如下命令获取键代码：
 
@@ -91,8 +81,6 @@ could not get driver version for /dev/input/mice, Not a typewriter
 /dev/input/event6: 0001 000b 00000001
 ```
 
-
-
 可以看到开始两行有“add device 1: /dev/input/event6”和名字“sunxi-ir”，这告诉我们红外接收是event6，接下来不要对鼠标键盘进行操作，否则会数次调试信息干扰获取红外的键代码。如果按下遥控器上某个按键就会有调试输出像如下代码那样：
 
 ```
@@ -100,15 +88,11 @@ could not get driver version for /dev/input/mice, Not a typewriter
 /dev/input/event6: 0000 0000 00000000
 ```
 
-
-
 需要的键代码是第一行的第二组数字
 
 ```
 0012
 ```
-
-
 
 但是这组数字是十六进制的，要把它需要转换成十进制，我使用的是这个
 
@@ -123,8 +107,6 @@ key "键代码" “安卓命令”
 ```
 
 \(可参照之前备份的sunxi-ir.kl.bak\)。
-
-
 
 下面列出的是我用的键代码。然后保存这个配置文件并重新加载驱动来应用新的配置文件即可。
 
@@ -144,10 +126,7 @@ key    22  ENTER
 key    13  BACK
 key    25  VOLUME_UP
 key    29  VOLUME_DOWN
-
 ```
-
-
 
 重新加载驱动，不过建议重启。
 
@@ -157,8 +136,6 @@ insmod /vendor/modules/sunxi-ir-rx.ko
 ```
 
 如果没什么错误你的遥控器已经开始工作了。
-
-
 
 ##### 下面说说我遇到的一个小问题：
 
