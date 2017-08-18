@@ -18,7 +18,6 @@ sh resize_rootfs.sh
 改成
 
 ```
-
 DEVICE="/dev/mmcblk0"
 PART="1"
 ```
