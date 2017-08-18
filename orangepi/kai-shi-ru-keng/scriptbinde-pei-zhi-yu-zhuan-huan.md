@@ -94,5 +94,7 @@ umount /mnt/mmcp1
 
 #### 附件
 
-链接: http://pan.baidu.com/s/1gf4A73H 密码: rgfh
+找不到script.fex的或者原来script.bin损坏的可以去[https://github.com/armbian/build/tree/master/config/fex](https://github.com/armbian/build/tree/master/config/fex)
+
+链接: [http://pan.baidu.com/s/1gf4A73H](http://pan.baidu.com/s/1gf4A73H) 密码: rgfh
 
