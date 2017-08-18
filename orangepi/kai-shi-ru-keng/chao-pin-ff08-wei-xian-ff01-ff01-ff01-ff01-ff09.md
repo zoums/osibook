@@ -4,26 +4,17 @@
 | :--- |
 
 
-|  |  |
+| 配置 | 参数 |
 | :--- | :--- |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| pmuic\_type | 0:none, 1:gpio, 2:i2c |
+| pmu\_gpio0 | pmu的GPIO配置 |
+| pmu\_levelx | PMU调节的电压等级，0~9999: 电压\(mV\)，10000~90000:gpio0 状态. 电压从高到低 |
+| extremity\_freq\(Hz\) | 当benckmark或demo程序时CPU的极致频率（安卓，怎么感觉是为了跑分专用？）推荐1536MHz@1500mV时用散热器, 在1296MHz@1340mV可以不用。 |
+| max\_freq | CPU最高频率，单位Hz，不能高于1200MHz |
+| min\_freq | CPU最低频率，单位Hz，不能低于60Mhz |
 |  |  |
 
-; pmuic\_type:0:none, 1:gpio, 2:i2c
 
-; pmu\_gpio0: gpio config.
-
-; pmu\_levelx: 0~9999: voltage\(mV\), 10000~90000:gpio0 state. voltage form high to low.
-
-;
-
-; extremity\_freq\(Hz\): cpu extremity frequency when run benckmark or demo apk
-
-;                     1536MHz@1500mV with radiator, 1296MHz@1340mV without radiator
 
 ; max\_freq: cpu maximum frequency, based on Hz, can not be more than 1200MHz
 
