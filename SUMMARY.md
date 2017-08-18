@@ -35,5 +35,5 @@
 
 ## Maya
 
-* [Maya快捷键大全](maya/mayakuai-jie-jian.md)
+* [Maya快捷键及技巧](maya/mayakuai-jie-jian.md)
 
