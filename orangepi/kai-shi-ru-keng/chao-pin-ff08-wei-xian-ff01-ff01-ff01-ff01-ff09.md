@@ -31,7 +31,7 @@ LV7: core vdd is 1.04v if cpu frequency is (0Mhz,      648Mhz]
 LV8: core vdd is 1.04v if cpu frequency is (0Mhz,      648Mhz]
 ```
 
-配置参数例子（OPIPC）每个LV有两个配置，LV\*_volt电压及LV\*_\_freq频率。
+配置参数例子（OPIPC）每个LV有两个配置，LV\*volt电压及LV\*freq频率。后面G\_LV的GPU配置等同。
 
 ```
 [dvfs_table]
