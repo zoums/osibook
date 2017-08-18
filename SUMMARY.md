@@ -16,7 +16,7 @@
   * [远程桌面安装](orangepi/kai-shi-ru-keng/yuan-cheng-zhuo-mian-an-zhuang.md)
   * [tightvncserver提示找不到字体](orangepi/kai-shi-ru-keng/tightvncserverti-shi-zhao-bu-dao-zi-ti.md)
   * [设置 tight VNC Server 为开机启动￼](orangepi/kai-shi-ru-keng/vnc.md)
-  * [香橙派关机键设置\[Linux\(H3\)\]](orangepi/kai-shi-ru-keng/powerkey.md)
+  * [香橙派关机键设置\{Linux\(H3\)\}](orangepi/kai-shi-ru-keng/powerkey.md)
   * [ubuntu-port国内源](orangepi/kai-shi-ru-keng/ubuntu-portguo-nei-yuan.md)
   * [cvbs音频输出](orangepi/kai-shi-ru-keng/cvbsyin-pin-shu-chu.md)
   * [修改显示分辨率](orangepi/kai-shi-ru-keng/xiu-gai-xian-shi-fen-bian-lv.md)
@@ -34,8 +34,8 @@
   * [PC2的C语言点亮LED程序](orangepi/kai-shi-ru-keng/pc2de-c-yu-yan-dian-liang-led-cheng-xu.md)
   * [OPI十分钟黑屏解决方法](orangepi/kai-shi-ru-keng/opishi-fen-zhong-hei-ping-jie-jue-fang-fa.md)
   * [超频（危险！！！！）](orangepi/kai-shi-ru-keng/chao-pin-ff08-wei-xian-ff01-ff01-ff01-ff01-ff09.md)
-* [OrangePi安卓root](orangepi/kai-shi-ru-keng/orangepian-zhuo-root.md)
-* test
+  * [OrangePi安卓root](orangepi/kai-shi-ru-keng/orangepian-zhuo-root.md)
+  * test
 * [玩家](orangepi/wan-jia.md)
 * [OrangePiZero](orangepi/kai-shi-ru-keng/orangepizero.md)
   * [接口定义](orangepi/kai-shi-ru-keng/jie-kou-ding-yi.md)
