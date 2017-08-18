@@ -10,6 +10,7 @@
 * [1.烧写操作系统](orangepi/jiang-cao-zuo-xi-tong-xie-ru-tf-qia.md)
   * [将操作系统写入TF卡H3/H5/A64](orangepi/jiang-cao-zuo-xi-tong-xie-ru-tf-qia/jiang-cao-zuo-xi-tong-xie-ru-tf-qia.md)
   * [烧写系统到EMMC](orangepi/jiang-cao-zuo-xi-tong-xie-ru-tf-qia/shao-xie-xi-tong-dao-emmc.md)
+  * [OrangePi\_2G-IOT升级NAND中的Android](orangepi/jiang-cao-zuo-xi-tong-xie-ru-tf-qia/orangepi2g-iotsheng-ji-nand-zhong-de-android.md)
   * [扩展分区大小](orangepi/jiang-cao-zuo-xi-tong-xie-ru-tf-qia/kuo-zhan-fen-qu-da-xiao.md)
 * [开始入坑](orangepi/kai-shi-ru-keng.md)
   * [设置 tight VNC Server 为开机启动￼](orangepi/kai-shi-ru-keng/vnc.md)
