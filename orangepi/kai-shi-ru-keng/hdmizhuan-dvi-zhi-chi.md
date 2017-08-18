@@ -15,7 +15,7 @@ hdmi_cts_compatibility = 1
 
 1、按照网上修改script.bin的方法将script.bin转换成文本文件
 
-注：本章第二篇
+##### 注：本章第二篇
 
 2、用文本编辑器在\[hdmi\_para\]项中加入如下两行定义
 
@@ -34,7 +34,7 @@ screen0_output_mode = 31
 
 4、转换回来script.bin并替换
 
-注：该教程理论上可用于微雪所有hdmi接口的屏幕
+##### 注：该教程理论上可用于微雪所有hdmi接口的屏幕
 
 [![](http://www.waveshare.net/w/upload/thumb/d/d1/5inch-HDMI-LCD-B-1.png/400px-5inch-HDMI-LCD-B-1.png)](http://www.waveshare.net/wiki/文件%3A5inch-HDMI-LCD-B-1.png)
 
@@ -42,7 +42,7 @@ screen0_output_mode = 31
 * HDMI接口：用于连接主板和LCD显示屏。
 * USB触摸接口：USB触摸/电源接口。
 * USB电源接口：USB电源接口/仅当LCD供电不足时使用。
-* 注：1024x600还需要修改这里
+* ##### 注：1024x600还需要修改这里
 * ![](http://www.orangepi.cn/orangepibbscn/data/attachment/forum/201701/02/232121t9u9hm8m129fzpuk.png)
 
 
