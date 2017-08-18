@@ -19,7 +19,7 @@ OrangePi 2G-IOT提供了两种方式的 Android 启动, 分别为 SD 卡启动�
 #### 1. 准备镜像和工具
 
 ```
-目前官网已经提供 NAND 启动的 Android 镜像，开发者可以从 OrangePi 官网获得最新的镜像  
+目前官网已经提供 NAND 启动的 Android 镜像，开发者可以从 OrangePi 官网获得最新的镜像
 ```
 
 ![](/assets/12545.png)
