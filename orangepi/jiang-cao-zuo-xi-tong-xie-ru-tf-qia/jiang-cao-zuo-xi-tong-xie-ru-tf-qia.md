@@ -1,4 +1,4 @@
-# OrangePi将操作系统写入TF卡H3/H5/A64/RDA {#-tf-}
+# OrangePi将操作系统写入（TF卡H3/H5/A64/RDA） {#-tf-}
 
 ---
 
