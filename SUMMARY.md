@@ -17,5 +17,6 @@
   * [香橙派关机键设置\[Linux\(H3\)\]](orangepi/kai-shi-ru-keng/powerkey.md)
   * [修改OTG口模式为device（主要是安卓）](orangepi/kai-shi-ru-keng/xiu-gai-otg-kou-mo-shi-wei-device-ff08-zhu-yao-shi-an-zhuo-ff09.md)
 * [进阶](orangepi/kai-shi-ru-keng/jin-jie.md)
+  * [H3的mainline uboot启动bsp内核](orangepi/kai-shi-ru-keng/jin-jie/h3de-mainline-uboot-qi-dong-bsp-nei-he.md)
 * [附录1（各种收集）](orangepi/fu-lu-1.md)
 
