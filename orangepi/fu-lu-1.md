@@ -20,5 +20,11 @@
 
 #### H3Droid [https://h3droid.com/](https://h3droid.com/)
 
+#### 盒子的源码及镜像TV-BOX [http://pan.baidu.com/s/1dFq1xM5](http://pan.baidu.com/s/1dFq1xM5)密码：垃j
+
+#### OPIPC的第三方安卓 [http://pan.baidu.com/share/link?shareid=2707484198&uk=1129906253](http://pan.baidu.com/share/link?shareid=2707484198&uk=1129906253)
+
+#### H5的源码及镜像，带修复补丁 H5 [http://pan.baidu.com/s/1jHVs5MI](http://pan.baidu.com/s/1jHVs5MI) 密码：H5lj
+
 
 
