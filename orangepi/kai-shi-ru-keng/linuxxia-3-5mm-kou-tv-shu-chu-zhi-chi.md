@@ -1,4 +1,4 @@
-Linux下3.5mm口tv输出支持
+# Linux下3.5mm口tv输出支持
 
 1、按照本章第二篇修改boot分区的script.bin。
 
