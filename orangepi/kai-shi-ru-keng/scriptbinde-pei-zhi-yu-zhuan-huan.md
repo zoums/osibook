@@ -8,24 +8,17 @@
 
 #### 其实 script.bin就是script.fex通过 fex2bin生成的，script.fex是文本格式，方便人修改，修改好之后转换为script.bin二进制格式方便机器读取。
 
-
-
 本文是假设 用户的orangepi是安装的ubuntu/debian 而且 已连接上网、已安装编译工具、已安装git的情况下。
 
 如果没安装的，可以先执行这句来安装编译工具和git:
 
 ```
-sudo apt-get install build-essential make gcc g++ git-core libusb-1.0-0-dev
+sudo apt-get install build-essential make gcc g++ git-core libusb-1.0-0-dev
 ```
 
-
-
-我们就说说在哪里修改这个文件，一般在在第一个分区\(/dev/mmcblk0p1\)中，这是boot分区，一些系统挂载在/media/boot下。。特指官方大部分系统。。。/boot下是备份，。不过armbian是在/boot下的。  
-
+我们就说说在哪里修改这个文件，一般在在第一个分区\(/dev/mmcblk0p1\)中，这是boot分区，一些系统挂载在/media/boot下。。特指官方大部分系统。。。/boot下是备份，。不过armbian是在/boot下的。
 
 如果是sd卡，你可以用读卡器在PC上面把script.bin 拷贝出来修改，不过armbian不能在win上读取。。。我建议直接在板子上修改，很方便。
-
-
 
 我以修改SD卡上的linux系统的script.bin配置为例：
 
@@ -41,8 +34,6 @@ make
 
 注：Ubuntu的中已有sunxi-tools包，可直接通过sudo apt-get install sunxi-tools安装，附件中有Windows版sunxi-tools
 
-
-
 2.将你要修改的script.bin拷贝出来。。。然而官方和大部分系统已经挂载在/media/boot下了。。这步挂载部分可以跳过。
 
 ```
@@ -52,8 +43,6 @@ cp /mnt/mmcp1/script.bin ./
 ```
 
 注：Windows上可直接插卡读取，或者windows版sunxi-tools附件中有现成的fex文件，论坛的系统大多挂载在/media/boot ，armbian在/boot 但是无法通过win读取
-
-
 
 3.将刚刚拷贝过来的script.bin转为script.fex,然后修改script.fex
 
@@ -71,12 +60,10 @@ bin2fex script.bin > ./script.fex
 然后
 
 ```
-nano ./script.fex   #编辑里面的内容，然后保存退出
+nano ./script.fex   #编辑里面的内容，然后保存退出
 ```
 
 各种文本编辑器自便，nano是Ctrl-O回车保存，Ctrl-X退出
-
-
 
 \#比如我要HDMI转dvi支持
 
@@ -86,8 +73,6 @@ nano ./script.fex   #编辑里面的内容，然后保存退出
 hdcp_enable = 0
 hdmi_cts_compatibility = 1
 ```
-
-
 
 4.将修改过的script.fex转回script.bin并放回原处
 
@@ -106,4 +91,8 @@ umount /mnt/mmcp1
 ```
 
 然后重启动系统，你的新script配置就生效了
+
+#### 附件
+
+链接: http://pan.baidu.com/s/1gf4A73H 密码: rgfh
 
