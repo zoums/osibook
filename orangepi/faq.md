@@ -16,6 +16,8 @@ A: 执行setterm -blank 0 如果setterm -blank 0失效则在cmdline定义console
 
 
 
+
+
 似乎Gitbook能在每条右侧接近右侧调出讨论的地方。。。要问问题的放那没毛病吧？或者你可以Fork然后发pull request\(程序员姿势\)
 
 ![](/assets/import.png)![](/assets/import1.png)
