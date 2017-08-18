@@ -18,6 +18,7 @@
   * [tightvncserver提示找不到字体](orangepi/kai-shi-ru-keng/tightvncserverti-shi-zhao-bu-dao-zi-ti.md)
   * [ubuntu-port国内源](orangepi/kai-shi-ru-keng/ubuntu-portguo-nei-yuan.md)
   * [cvbs音频输出](orangepi/kai-shi-ru-keng/cvbsyin-pin-shu-chu.md)
+  * [修改显示分辨率](orangepi/kai-shi-ru-keng/xiu-gai-xian-shi-fen-bian-lv.md)
 * [进阶](orangepi/kai-shi-ru-keng/jin-jie.md)
   * [dtc工具转换dts与dtb](orangepi/kai-shi-ru-keng/dtcgong-ju-zhuan-huan-dts-yu-dtb.md)
   * [script.bin的配置与转换](orangepi/kai-shi-ru-keng/scriptbinde-pei-zhi-yu-zhuan-huan.md)
