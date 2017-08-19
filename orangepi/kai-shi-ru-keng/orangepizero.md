@@ -40,7 +40,8 @@
 | 接口定义 |
 | :--- |
 | ![](/assets/opiz-pins-26-0.jpg) |
-| CON4定义![](/assets/opiz-pins-26-1.png) |
+| CON4定义 |
+| ![](/assets/opiz-pins-26-1.png) |
 
 * [OPI官网](http://www.orangepi.cn)
 * [官方Github](https://github.com/orangepi-xunlong)
