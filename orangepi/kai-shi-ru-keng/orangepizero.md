@@ -2,6 +2,8 @@
 
 ![](/assets/zero.png)
 
+生产商：[OrangePi](http://www.orangepi.cn)
+
 官方介绍：[http://www.orangepi.cn/orangepizero/index\_cn.html](http://www.orangepi.cn/orangepizero/index_cn.html)
 
 板子大小：46mm x 48mm
