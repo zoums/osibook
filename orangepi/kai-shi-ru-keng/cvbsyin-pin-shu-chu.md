@@ -29,5 +29,7 @@ ctl.!default {
 alsactl store -f /var/lib/alsa/asound.state
 ```
 
+smplayer切换方法：
 
+打开 smplayer, 选择 options 中的 preferences， 选择 alsa\(audiocodec\) ， HDMI和 audiocodec 同时只能打开一个。
 
