@@ -162,9 +162,15 @@ c
 
 ![](/assets/clip_image018.jpg)
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image040.gif)
+板子上有丝印标识那三根独立的针脚的定义，看不清楚的去看对应板子的章节。。目前我只写了ZERO的。。日后其他的补上。
 
-使用 TTL 转串口线，一端连接 OrangePi，另一端连接 PC
+| 板子 | USB转TTL |
+| :--- | :--- |
+| GND | GND |
+| RX | TX |
+| TX | RX |
+
+使用 TTL 转串口线，一端连接 OrangePi，另一端连接 PC，按照上面表格连接，至于为何要TXRX对调，因为这边说话（TX）那边要用脑子。。哦不。。耳朵（RX）去听。。
 
 3.**设备信息的获取**
 
