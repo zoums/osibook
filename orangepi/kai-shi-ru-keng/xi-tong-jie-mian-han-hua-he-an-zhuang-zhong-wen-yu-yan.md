@@ -1,5 +1,9 @@
 # 系统界面汉化和安装中文语言
 
+##### 收录自 [http://www.orangepi.cn/orangepibbscn/forum.php?mod=viewthread&tid=42&extra=page%3D1](http://www.orangepi.cn/orangepibbscn/forum.php?mod=viewthread&tid=42&extra=page%3D1)
+
+##### [jacer](http://www.orangepi.cn/orangepibbscn/home.php?mod=space&uid=4428)
+
 #### 适用于Ubuntu:
 
 然后打开System-Adminstration-Language support，选Language选项卡然后按Install/Remove Language，将Chinese\(China\)中文简体打钩然后按Apply，安装结束后，将汉语Chinese，拖到English上面重启即可。可参照下面这个链接
