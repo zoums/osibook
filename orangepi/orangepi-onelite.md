@@ -40,7 +40,6 @@
 | 接口定义 |
 | :--- |
 | ![](/assets/gpio/h3gpio.jpg) |
-|  |
 
 * [OPI官网](http://www.orangepi.cn)
 * [官方Github](https://github.com/orangepi-xunlong)
