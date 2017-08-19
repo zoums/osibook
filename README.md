@@ -10,7 +10,7 @@
 
 ###### OSI BOOK ： [https://zoums.gitbooks.io/](https://zoums.gitbooks.io/)
 
-###### 本Wiki&BOOK网盘: http://pan.baidu.com/s/1cewtPW 密码: 778p
+###### 本Wiki&BOOK网盘: [http://pan.baidu.com/s/1cewtPW](http://pan.baidu.com/s/1cewtPW) 密码: 778p
 
 ###### 有问题可以联系我
 
@@ -23,6 +23,8 @@
 ###### 再吐槽句。。GItbook真好用。。。。
 
 ---
+
+##### 这里的观点不一定都是正确的，不一定按我说的做，所以你可以有自己的风格。
 
 ##### 如果觉得这里对你有所帮助，可以用支付宝扫描下面二维码的方式捐助，谢谢您的支持！
 
