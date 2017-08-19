@@ -8,7 +8,7 @@
 
 ### 还是多说几下好了。。。
 
-上面编译后一般还要替换内核，建议uname -r看原来内核版本来判断，如果需要，还得执行编make uImage或者make zImage以编译出来uImage或者Image\(一般是zImage\)，根据编译出来的内核格式，还有可能需要更换bootcmd如果内核格式和原来不一样的话，看原来的格式是否相同判断，官方系统内在BOOT分区，一般挂载在media/boot内核是uImge格式，armbian在/boot，是zImage格式
+上面编译后一般还要替换内核，建议uname -r看原来内核版本以及查看内核源码根目录下的makefile来判断内核版本是否相同，实际上还是建议更换内核，如果需要，还得执行编make uImage或者make zImage以编译出来uImage或者Image\(一般是zImage\)，在电脑上编译可能还需要配置交叉编译器加ARCH=arm CROSS\_COMPILE=arm-linux-gnueabihf-之类的参数，或者有编译脚本也行，根据编译出来的内核格式如果和原来不一样的话还有可能需要更换bootcmd，看原来的格式是否相同判断，官方系统内在BOOT分区，一般挂载在media/boot内核是uImge格式，armbian在/boot，是zImage格式。其他系统建议先看分区分布来判断。
 
 #### 打开serial串口模式在opi以便直接连micro usb口调试
 
