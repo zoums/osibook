@@ -2,7 +2,7 @@
 
 ## OSI-Wiki & Book
 
-* [OSI](README.md)
+* [OSI主页](README.md)
 
 ## OrangePi
 
