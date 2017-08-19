@@ -48,6 +48,7 @@
   * [接口定义](orangepi/kai-shi-ru-keng/jie-kou-ding-yi.md)
   * [Zero使用POE供电](orangepi/kai-shi-ru-keng/orangepizero/zeroshi-yong-poe-gong-dian.md)
 * [OrangePi One/Lite](orangepi/orangepi-onelite.md)
+  * [接口定义](orangepi/orangepi-onelite/jie-kou-ding-yi.md)
 * [附录1（各种收集）](orangepi/fu-lu-1.md)
   * [Ubuntu15以上mkfs.ext4与旧版本不兼容解决](orangepi/fu-lu-1/ubuntu15yi-shang-mkfs-ext4-yu-jiu-ban-ben-bu-jian-rong-jie-jue.md)
   * [制作initrd注意的](orangepi/fu-lu-1/zhizuo-initrd-zhu-yi-de.md)
