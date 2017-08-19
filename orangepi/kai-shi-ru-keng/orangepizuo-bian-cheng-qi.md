@@ -8,7 +8,7 @@
 
 OrangePi的40PIN外设端口定义
 
-![](/assets/20151019002607_51900.jpg)
+![](/assets/gpio/h3gpio.jpg)
 
 8脚Flash rom的连接定义（具体请自行查询相应flash rom的定义）
 
