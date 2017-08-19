@@ -1,6 +1,6 @@
 # 超频（危险！！！！）
 
-参数解释，具体修改文件参考dtb与script.bin的修改，此教程仅适用Legacy传统BSP内核。
+参数解释，具体修改文件参考dtb与script.bin的修改，此教程仅适用Legacy传统的BSP内核。
 
 | dvfs 电压-频率模块配置 |
 | :--- |
