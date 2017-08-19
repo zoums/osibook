@@ -20,7 +20,7 @@ Q: 适合板子的铜柱该怎么买？
 
 Q: 我的PC2刷了OPI官方的Ubuntu Server怎么显示器黑屏？但是有信号。
 
-> A: OPI官方的Server版系统在bootcmd定义了console=/dev/null ，所以console没有输出到tty ，只有图形界面有输出。
+> A: OPI官方的H5系列的Server版系统在bootcmd定义了console=/dev/null ，所以console没有输出到tty ，只有图形界面有输出。
 
 似乎Gitbook能在每条右侧接近右侧调出讨论的地方。。。对哪句不满的可以发表下意见，或者你可以Fork然后发pull request\(程序员姿势\)
 
