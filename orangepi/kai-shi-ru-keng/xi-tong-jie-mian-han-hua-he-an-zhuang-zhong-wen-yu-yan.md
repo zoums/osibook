@@ -4,6 +4,8 @@
 
 ##### [jacer](http://www.orangepi.cn/orangepibbscn/home.php?mod=space&uid=4428)
 
+##### 有删改
+
 #### 适用于Ubuntu:
 
 然后打开System-Adminstration-Language support，选Language选项卡然后按Install/Remove Language，将Chinese\(China\)中文简体打钩然后按Apply，安装结束后，将汉语Chinese，拖到English上面重启即可。可参照下面这个链接
