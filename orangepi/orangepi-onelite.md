@@ -1,8 +1,6 @@
 # Xunlong Orange Pi One & Lite
 
-# OrangePi Zero
-
-![](/assets/One&Lite.png)
+![](/assets/gpio/h3gpio.png)
 
 生产商：[OrangePi](http://www.orangepi.cn)
 
@@ -41,7 +39,7 @@
 
 | 接口定义 |
 | :--- |
-|  |
+| ![](/assets/100852qq7rgrozif5ykceu.png) |
 |  |
 
 * [OPI官网](http://www.orangepi.cn)
