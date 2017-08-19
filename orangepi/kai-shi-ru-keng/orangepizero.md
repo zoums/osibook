@@ -47,7 +47,7 @@
 * [官方Github](https://github.com/orangepi-xunlong)
 * [官方中文论坛](http://www.orangepi.cn/orangepibbscn)
 * [官方英文论坛](http://www.orangepi.org/orangepibbsen)
-* [Orange Pi Zero 原理图](https://linux-sunxi.org/File:Orange-Pi-Zero-Schanetics-v1_11.pdf)
+* Orange Pi Zero Schematic V1.11 原理图[File:Orange-Pi-Zero-Schanetics-v1_11.pdf](https://linux-sunxi.org/File:Orange-Pi-Zero-Schanetics-v1_11.pdf)
 
 
 
