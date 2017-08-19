@@ -13,6 +13,8 @@
   * [OrangePi\_2G-IOT升级NAND中的Android](orangepi/jiang-cao-zuo-xi-tong-xie-ru-tf-qia/orangepi2g-iotsheng-ji-nand-zhong-de-android.md)
   * [扩展分区大小](orangepi/jiang-cao-zuo-xi-tong-xie-ru-tf-qia/kuo-zhan-fen-qu-da-xiao.md)
 * [开始入坑](orangepi/kai-shi-ru-keng.md)
+  * [用SSH连接板子进行控制](orangepi/kai-shi-ru-keng/yong-ssh-lian-jie-ban-zi-jin-xing-kong-zhi.md)
+  * [通过串口调试与控制板子](orangepi/kai-shi-ru-keng/tong-guo-chuan-kou-diao-shi-yu-kong-zhi-ban-zi.md)
   * [远程桌面安装](orangepi/kai-shi-ru-keng/yuan-cheng-zhuo-mian-an-zhuang.md)
   * [tightvncserver提示找不到字体](orangepi/kai-shi-ru-keng/tightvncserverti-shi-zhao-bu-dao-zi-ti.md)
   * [设置 tight VNC Server 为开机启动￼](orangepi/kai-shi-ru-keng/vnc.md)
