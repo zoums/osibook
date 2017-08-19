@@ -40,7 +40,8 @@
 * [GPIO](orangepi/kai-shi-ru-keng/gpio.md)
   * [H5](orangepi/kai-shi-ru-keng/gpio/h5.md)
     * [WiringOP](orangepi/kai-shi-ru-keng/gpio/h5/wiringop.md)
-  * H3/H2+
+  * [H3/H2+](orangepi/kai-shi-ru-keng/gpio/h3h2+.md)
+    * [WiringOP\(H3\)](orangepi/kai-shi-ru-keng/gpio/h3h2+/wiringoph3.md)
   * A64
 * [玩家](orangepi/wan-jia.md)
 * [OrangePiZero](orangepi/kai-shi-ru-keng/orangepizero.md)
