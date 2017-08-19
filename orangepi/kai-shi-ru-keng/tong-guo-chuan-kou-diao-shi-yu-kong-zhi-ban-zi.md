@@ -12,9 +12,9 @@ USB转TTL我推荐用CP2102或者CH34x系列的，本文中的PL2303是错误的
 
 ###### OrangePi开发板
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image002.gif)
+![](/assets/clip_image002.gif)
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image004.jpg)  
+![](/assets/clip_image0.jpg)  
 TTL 转 USB 线，不推荐PL2303。山寨的多，驱动容易导致蓝屏等。。。
 
 ## Windows平台
@@ -23,31 +23,31 @@ TTL 转 USB 线，不推荐PL2303。山寨的多，驱动容易导致蓝屏等�
 
 1.Windows 下 USB 驱动安装
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image006.jpg)  
+![](/assets/dsfsfs.jpg)  
 a.目前最新版的驱动PL2303\_Prolific\_DriverInstaller\_v130.zip，下载解压。
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image008.jpg)b. 以管理员身份选择应用程序安装
+![](/assets/clip_image008.jpg)b. 以管理员身份选择应用程序安装
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image010.jpg)  
+![](/assets/dsdds.jpg)  
 c.等待安装完成
 
 2.Windows 下 Putty 安装
 
 a.下载 putty 安装包
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image012.jpg)
+![](/assets/fdf.jpg)
 
 b. 解压安装
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image014.jpg)
+![](/assets/dsgdsg.jpg)
 
 c. 安装好之后打开程序如下图所示
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image016.jpg)
+![](/assets/clip_image016.jpg)
 
 3.**调试的连接方式**
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image018.jpg)
+![](/assets/clip_image018.jpg)
 
 使用 TTL 转串口线，一端连接 OrangePi，另一端连接 PC
 
@@ -55,21 +55,21 @@ c. 安装好之后打开程序如下图所示
 
 a. 开始菜单 选择控制面板
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image021.jpg)
+![](/assets/clip_image020.jpg)
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image023.jpg)
+![](/assets/clip_image023.jpg)
 
 b. 点击设备管理器，查看端口号
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image025.jpg)
+![](/assets/clip_image025.jpg)
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image027.jpg)
+![](/assets/clip_image027.jpg)
 
 ##### 注：PL2303驱动出毛病了。。。所以才说不推荐PL2303。山寨的多，驱动容易导致蓝屏等。。。
 
 ##### 5.Putty 的配置
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image029.jpg)
+![](/assets/clip_image029.jpg)
 
 串行口设置成相应的端口号\(COM5\)，速度设置成 115200
 
@@ -77,7 +77,7 @@ b. 点击设备管理器，查看端口号
 
 OrangePi上电开机，串口自动打印串口log
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image031.jpg)
+![](/assets/clip_image031.jpg)
 
 ## Linux平台
 
@@ -91,7 +91,7 @@ a.使用命令进行安装：
 sudo apt-get install ckermit
 ```
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image033.jpg)
+![](/assets/clip_image033.jpg)
 
 b.配置kermit
 
@@ -99,7 +99,7 @@ b.配置kermit
 sudo vi /etc/kermit/kermrc
 ```
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image034.jpg)
+![](/assets/clip_image034.jpg)
 
 c.添加行：
 
@@ -116,11 +116,11 @@ set window 5
 c
 ```
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image037.jpg)
+![](/assets/clip_image037.jpg)
 
 **2.调试的连接方式**
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image039.jpg)
+![](/assets/clip_image018.jpg)
 
 ![](file:///D:/Temp/msohtmlclip1/01/clip_image040.gif)
 
@@ -130,7 +130,7 @@ c
 
 $ ls /dev/ \(在 PC 终端输入命令，查询 TTL 转串口 线的设备号\)
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image042.jpg)
+![](/assets/clip_image042.jpg)
 
 a.从图中可以看出，“TTL转串口”线被识别为“ttyUSB0”,配置
 
@@ -140,7 +140,7 @@ $ sudo vi /etc/kermit/kermitc
 
 b.将setline的值设置为/dev/ttyUSB0
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image043.jpg)
+![](/assets/clip_image043.jpg)
 
 ![](file:///D:/Temp/msohtmlclip1/01/clip_image035.gif)
 
@@ -150,9 +150,9 @@ a.在上位机终端输入命令，进入kermit模式：
 
 $ sudo kermit –c
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image045.jpg)
+![](/assets/clip_image044.png)
 
 b. OrangePi上电开机，串口自动打印串口log。
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image047.jpg)
+![](/assets/clip_image046.png)
 
