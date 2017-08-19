@@ -97,7 +97,7 @@ sudo apt-get install picocom
 ls /dev/ttyUSB*
 ```
 
- \(在 PC 终端输入命令，查询 TTL 转串口 线的设备号\)
+\(在 PC 终端输入命令，查询 TTL 转串口 线的设备号\)
 
 ![](/assets/clip_image042.jpg)
 
@@ -144,6 +144,8 @@ set window 5
 c
 ```
 
+其中speed115200适用于OPI H3/H5/A64 至于RDA平台的2G-IOT和i96，目前是921600
+
 ![](/assets/clip_image037.jpg)
 
 **2.调试的连接方式**
@@ -160,7 +162,7 @@ c
 ls /dev/ttyUSB*
 ```
 
- \(在 PC 终端输入命令，查询 TTL 转串口 线的设备号\)
+\(在 PC 终端输入命令，查询 TTL 转串口 线的设备号\)
 
 ![](/assets/clip_image042.jpg)
 
