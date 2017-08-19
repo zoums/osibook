@@ -16,7 +16,7 @@
 | min\_freq | CPU最低频率，单位Hz，不能低于60Mhz |
 | LV\_count | 频率与电压等级调节计数，必须小于16个 |
 
-注：电压等级，OPIPC/PCPLUS/PC2/PLUS&2/2/PLUS2E用[SY8106A](http://linux-sunxi.org/SY8106A)电压调节器来提供CPU核心电压\(VDD\_CPUX\)，最高电压1.5V，推荐1.4V。ONE/Lite/Zero系列是SY8113B \([datasheet](https://www.olimex.com/Products/Breadboarding/BB-PWR-8113/resources/SY8113.pdf)\)，有1.1V和1.3V电压，频率只能到1296Mhz。
+注：电压等级，OPIPC/PCPLUS/PC2/PLUS&2/2/PLUS2E用[SY8106A](http://linux-sunxi.org/SY8106A)电压调节器来提供CPU核心电压\(VDD\_CPUX\)，最高电压1.5V，推荐1.4V，能到多少自己测试，不过目前最高普遍能稳定的在1536/1500mv。ONE/Lite/Zero系列是SY8113B \([datasheet](https://www.olimex.com/Products/Breadboarding/BB-PWR-8113/resources/SY8113.pdf)\)，有1.1V和1.3V电压，频率只能到1296Mhz。
 
 频率等级例子（OPIPC）
 
