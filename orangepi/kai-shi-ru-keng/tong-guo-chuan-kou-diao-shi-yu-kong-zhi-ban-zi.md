@@ -109,6 +109,8 @@ ls /dev/ttyUSB*
 sudo picocom -b 115200 /dev/ttyUSB0
 ```
 
+其中-b 115200适用于OPI H3/H5/A64 至于RDA平台的2G-IOT和i96，目前是921600
+
 #### Kermit
 
 **1.Kermit 的安装**
