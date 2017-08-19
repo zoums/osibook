@@ -52,5 +52,5 @@ sudo apt-get install ttf-wqy-zenhei
 
 需要其他字体的自己找。
 
-如需HOME文件夹也为中文，可以删除/home/orangepi/.config下面文件夹中文件**user-dirs.dirs**和user-dirs.locale然后重启。
+如需HOME文件夹也为中文，可以删除/home/orangepi/.config下面文件夹中文件user-dirs.dirs和user-dirs.locale然后重启。
 
