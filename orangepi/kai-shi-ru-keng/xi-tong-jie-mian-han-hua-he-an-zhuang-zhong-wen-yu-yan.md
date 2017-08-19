@@ -1,14 +1,18 @@
 # 系统界面汉化和安装中文语言
 
+#### 适用于Ubuntu:
+
+然后打开System-Adminstration-Language support，选Language选项卡然后按Install/Remove Language，将Chinese\(China\)中文简体打钩然后按Apply，安装结束后，将汉语Chinese，拖到English上面重启即可。可参照下面这个链接
+
+[http://jingyan.baidu.com/article/36d6ed1f2e95f61bce488353.html](http://jingyan.baidu.com/article/36d6ed1f2e95f61bce488353.html)
+
+#### 上面不行的可以试试这样：
+
 打开终端terminal,输入如下命令后回车，
 
 ```
 sudo apt-get install --reinstall locales
 ```
-
-然后打开System-Adminstration-Language support，选Language选项卡然后按Install/Remove Language，将Chinese\(China\)中文简体打钩然后按Apply，安装结束后，将汉语Chinese，拖到English上面重启即可。可参照下面这个链接
-
-[http://jingyan.baidu.com/article/36d6ed1f2e95f61bce488353.html](http://jingyan.baidu.com/article/36d6ed1f2e95f61bce488353.html)
 
 执行
 
@@ -32,11 +36,15 @@ LC_TELEPHONE="zh_CN.UTF-8"
 LC_MEASUREMENT="zh_CN.UTF-8"
 ```
 
-nano是Ctrl-O然后回车保存，Crtl-x退出。
+nano是Ctrl-O然后回车保存，Crtl-x退出。其他文本编辑器自便。
 
-如需HOME文件夹也为中文，可以删除/home/orangepi/.config下面文件夹中文件
+然后安装中文字体
 
-**user-dirs.dirs**
+```
+sudo apt-get install ttf-wqy-zenhei
+```
 
-和user-dirs.locale然后重启。
+需要其他字体的自己找。
+
+如需HOME文件夹也为中文，可以删除/home/orangepi/.config下面文件夹中文件**user-dirs.dirs**和user-dirs.locale然后重启。
 
