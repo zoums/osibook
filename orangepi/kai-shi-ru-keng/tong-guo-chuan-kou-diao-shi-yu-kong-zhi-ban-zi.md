@@ -81,7 +81,35 @@ OrangePi上电开机，串口自动打印串口log
 
 ## Linux平台
 
-使用Linux平台进行串口调试工具有minicom和kermit。本文以kermit作为例子进行讲解。
+使用Linux平台进行串口调试工具有picocom、minicom和kermit。本文以kermit和picocom作为例子进行讲解。
+
+#### picocom
+
+##### 1. 安装picocom
+
+```
+sudo apt-get install picocom
+```
+
+##### 2.**设备信息的获取**
+
+```
+ls /dev/ttyUSB*
+```
+
+ \(在 PC 终端输入命令，查询 TTL 转串口 线的设备号\)
+
+![](/assets/clip_image042.jpg)
+
+可以看到是ttyUSB0，记下来。
+
+##### 3.终端执行如下命令进行连接
+
+```
+sudo picocom -b 115200 /dev/ttyUSB0
+```
+
+#### Kermit
 
 **1.Kermit 的安装**
 
@@ -128,7 +156,11 @@ c
 
 3.**设备信息的获取**
 
-$ ls /dev/ \(在 PC 终端输入命令，查询 TTL 转串口 线的设备号\)
+```
+ls /dev/ttyUSB*
+```
+
+ \(在 PC 终端输入命令，查询 TTL 转串口 线的设备号\)
 
 ![](/assets/clip_image042.jpg)
 
@@ -136,7 +168,9 @@ a.从图中可以看出，“TTL转串口”线被识别为“ttyUSB0”,配置
 
 /ect/kermit/kermitc文件，更新串口信息。
 
-$ sudo vi /etc/kermit/kermitc
+```
+sudo vi /etc/kermit/kermitc
+```
 
 b.将setline的值设置为/dev/ttyUSB0
 
@@ -148,7 +182,9 @@ b.将setline的值设置为/dev/ttyUSB0
 
 a.在上位机终端输入命令，进入kermit模式：
 
-$ sudo kermit –c
+```
+sudo kermit –c
+```
 
 ![](/assets/clip_image044.png)
 
