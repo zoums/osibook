@@ -37,6 +37,7 @@
   * [OPI十分钟黑屏解决方法](orangepi/kai-shi-ru-keng/opishi-fen-zhong-hei-ping-jie-jue-fang-fa.md)
   * [OrangePi安卓root](orangepi/kai-shi-ru-keng/orangepian-zhuo-root.md)
   * [超频（危险！！！！）](orangepi/kai-shi-ru-keng/chao-pin-ff08-wei-xian.md)
+* [GPIO](orangepi/kai-shi-ru-keng/gpio.md)
 * [玩家](orangepi/wan-jia.md)
 * [OrangePiZero](orangepi/kai-shi-ru-keng/orangepizero.md)
   * [接口定义](orangepi/kai-shi-ru-keng/jie-kou-ding-yi.md)
