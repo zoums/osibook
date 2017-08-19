@@ -1,0 +1,2 @@
+OrangePi ONE/LITE
+
