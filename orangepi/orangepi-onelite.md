@@ -1,6 +1,6 @@
 # Xunlong Orange Pi One & Lite
 
-![](/assets/gpio/h3gpio.png)
+![](/assets/One&Lite.png)
 
 生产商：[OrangePi](http://www.orangepi.cn)
 
