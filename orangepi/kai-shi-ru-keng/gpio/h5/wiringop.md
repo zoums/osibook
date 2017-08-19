@@ -15,7 +15,7 @@ sudo apt-get install gcc g++ make
 ii 编译 GPIO 的 H5 的WiringOP库
 
 ```
-git clone https: //github.com/kazukioishi/WiringOP.git -b h5
+git clone https://github.com/kazukioishi/WiringOP.git -b h5
 cd WiringOP
 chmod +x . /build
 sudo . /build
@@ -30,7 +30,7 @@ Copyright (c) 2012-2014 Gordon Henderson
 This is free software with ABSOLUTELY NO WARRANTY.
 For details type: gpio -warranty
 Banana Pro Details:
-Type: Banana Pro, Revision: 1. 2, Memory: 1024MB, Maker: LeMaker
+Type: Banana Pro, Revision: 1.2, Memory: 1024MB, Maker: LeMaker
 ```
 
 iv 显示所有GPIO信息
