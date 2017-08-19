@@ -51,8 +51,6 @@ c. 安装好之后打开程序如下图所示
 
 使用 TTL 转串口线，一端连接 OrangePi，另一端连接 PC
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image019.gif)
-
 1. 设备信息的获取
 
 a. 开始菜单 选择控制面板
@@ -89,39 +87,34 @@ OrangePi上电开机，串口自动打印串口log
 
 a.使用命令进行安装：
 
-$ sudo apt-get install ckermit
+```
+sudo apt-get install ckermit
+```
 
 ![](file:///D:/Temp/msohtmlclip1/01/clip_image033.jpg)
 
 b.配置kermit
 
-$ sudo vi /etc/kermit/kermrc
+```
+sudo vi /etc/kermit/kermrc
+```
 
 ![](file:///D:/Temp/msohtmlclip1/01/clip_image034.jpg)
 
 c.添加行：
 
+```
 set line /dev/ttyUSB1
-
 set speed115200 set carrier-watch off
-
 set handshake none set flow-control none
-
-![](file:///D:/Temp/msohtmlclip1/01/clip_image035.gif)
-
 robust
-
 set file type bin
-
 set file name lit
-
 set rec pack 1000
-
 set send pack 1000
-
 set window 5
-
 c
+```
 
 ![](file:///D:/Temp/msohtmlclip1/01/clip_image037.jpg)
 
