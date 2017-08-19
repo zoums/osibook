@@ -55,6 +55,8 @@ sudo echo g_serial >> /etc/modules
 
 ##### 摘录自[http://blog.csdn.net/jklinux/article/details/72724054](http://blog.csdn.net/jklinux/article/details/72724054) [jklinux](http://my.csdn.net/jklinux)
 
+两篇文章互相参考下也是可以的。。
+
 板子没有有线网卡， 但有提供otg接口, 可以让我们的板子作个虚拟网卡通过usb线接到pc, 在pc上就会多产生一个网络设备。然后pc就可以通过产生的网络设备与板子通信了, 板子也可以通过网络挂载pc上的共享目录.
 
 1\). 配置内核，让内核支持此功能.
