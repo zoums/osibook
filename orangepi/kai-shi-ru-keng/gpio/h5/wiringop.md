@@ -2,8 +2,6 @@
 
 WiringOP是移植的WIringPi，基于WiringBP。
 
-
-
 #### 安装和使用
 
 a. 安装 WiringPi
@@ -17,7 +15,7 @@ sudo apt-get install gcc g++ make
 ii 编译 GPIO 的 H5 的WiringOP库
 
 ```
-git clone https: //github. com/kazukioishi/WiringOP. git -b h5
+git clone https: //github. com/kazukioishi/WiringOP.git -b h5
 cd WiringOP
 chmod +x . /build
 sudo . /build
