@@ -39,6 +39,7 @@
   * [超频（危险！！！！）](orangepi/kai-shi-ru-keng/chao-pin-ff08-wei-xian.md)
 * [GPIO](orangepi/kai-shi-ru-keng/gpio.md)
   * [H5](orangepi/kai-shi-ru-keng/gpio/h5.md)
+    * [WiringOP](orangepi/kai-shi-ru-keng/gpio/h5/wiringop.md)
   * H3/H2+
   * A64
 * [玩家](orangepi/wan-jia.md)
