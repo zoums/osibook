@@ -22,6 +22,10 @@ Q: 我的PC2刷了OPI官方的Ubuntu Server怎么显示器黑屏？但是有信�
 
 > A: OPI官方的H5系列的Server版系统在bootcmd定义了console=/dev/null ，所以console没有输出到tty ，只有图形界面有输出。
 
+Q: 2G-IOT连接屏幕白屏不能显示怎么办？
+
+> A: 安卓得升级官方1.3版镜像，目前Linux不能显示，虽然有驱动。。可能可以。。。但是我并没试过。
+
 似乎Gitbook能在每条右侧接近右侧调出讨论的地方。。。对哪句不满的可以发表下意见，或者你可以Fork然后发pull request\(程序员姿势\)
 
 ![](/assets/import.png)![](/assets/import1.png)
