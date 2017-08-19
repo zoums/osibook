@@ -39,7 +39,7 @@
 
 | 接口定义 |
 | :--- |
-| ![](/assets/100852qq7rgrozif5ykceu.png) |
+| ![](/assets/gpio/h3gpio.png) |
 |  |
 
 * [OPI官网](http://www.orangepi.cn)
