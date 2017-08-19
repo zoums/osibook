@@ -44,7 +44,8 @@
   * [H3/H2+](orangepi/kai-shi-ru-keng/gpio/h3h2+.md)
     * [WiringOP\(H3\)](orangepi/kai-shi-ru-keng/gpio/h3h2+/wiringoph3.md)
   * A64
-  * RDA8810PL
+  * [RDA8810PL](orangepi/kai-shi-ru-keng/gpio/rda8810pl.md)
+    * [WiringPi](orangepi/kai-shi-ru-keng/gpio/rda8810pl/wiringpi.md)
 * [玩家](orangepi/wan-jia.md)
 * [OrangePi Zero](orangepi/kai-shi-ru-keng/orangepizero.md)
   * [接口定义](orangepi/kai-shi-ru-keng/jie-kou-ding-yi.md)

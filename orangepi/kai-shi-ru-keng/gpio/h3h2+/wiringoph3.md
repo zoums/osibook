@@ -10,7 +10,14 @@ WiringOP是WiringPi修改而来，基于WiringBP
 git clone https://github.com/zhaolei/WiringOP.git -b h3
 ```
 
-## 安装：
+## 安装编译依赖：
+
+```
+i 安装源码需要的编译工具
+sudo apt-get install gcc g++ make
+```
+
+## 安装WiringOP：
 
 ```
 cd WiringOP
@@ -18,7 +25,7 @@ chmod +x ./build
 sudo ./build
 ```
 
-## 查看GPIO
+## 查看GPIO：
 
 ```
 orangepi@orangepi:~$ gpio readall
