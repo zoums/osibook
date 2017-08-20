@@ -1,5 +1,7 @@
 # OrangePi Lite 系列2:使用US-015超声波模块测距
 
+转发自 [http://blog.helianthus.cc/2017/07/26/OrangePi-Lite-%E7%B3%BB%E5%88%972-%E4%BD%BF%E7%94%A8US-015%E8%B6%85%E5%A3%B0%E6%B3%A2%E6%A8%A1%E5%9D%97%E6%B5%8B%E8%B7%9D/](http://blog.helianthus.cc/2017/07/26/OrangePi-Lite-%E7%B3%BB%E5%88%972-%E4%BD%BF%E7%94%A8US-015%E8%B6%85%E5%A3%B0%E6%B3%A2%E6%A8%A1%E5%9D%97%E6%B5%8B%E8%B7%9D/)
+
 2017-07-26
 
 先来一张效果图吧：
@@ -80,8 +82,6 @@ US-015 模块有一个4Pin接口
 
 `vi length.py`
 
-
-
 ```
 from pyA20.gpio import gpio
 from pyA20.gpio import port
@@ -113,8 +113,6 @@ while True:
     # 每隔三秒获取距离
     time.sleep(0.3)
 ```
-
-
 
 最后执行
 
