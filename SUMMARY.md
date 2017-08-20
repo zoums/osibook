@@ -47,6 +47,7 @@
   * [RDA8810PL](orangepi/kai-shi-ru-keng/gpio/rda8810pl.md)
     * [WiringPi](orangepi/kai-shi-ru-keng/gpio/rda8810pl/wiringpi.md)
 * [玩家](orangepi/wan-jia.md)
+  * [使用US-015超声波模块测距](orangepi/wan-jia/orangepi-lite-xi-lie-2-shi-yong-us-015-chao-sheng-bo-mo-kuai-ce-ju.md)
 * [OrangePi Zero](orangepi/kai-shi-ru-keng/orangepizero.md)
   * [接口定义](orangepi/kai-shi-ru-keng/jie-kou-ding-yi.md)
   * [Zero使用POE供电](orangepi/kai-shi-ru-keng/orangepizero/zeroshi-yong-poe-gong-dian.md)
