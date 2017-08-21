@@ -89,7 +89,7 @@ echo XX > /sys/class/gpio/unexport
 然后导入你要的管脚。（然而，有些版本的内核在上一部加载模块后在**/sys/class/gpio\_sw**已有相应管脚访问了，所以不是所有内核版本都适用。）
 
 ```
- for A in 1 2 3 4 5 6 7 8 9 10 11 12; do echo "$A" > /sys/class/gpio/export ; done
+ for A in 1 2 3 4 5 6 7 8 9 10 11 12; do echo "$A" > /sys/class/gpio/export ; done
 ```
 
 然后应该会有一些链接在 sys/class/gpio/，或者不行的可以去/sys/class/gpio\_sw：
@@ -125,10 +125,30 @@ echo XX > /sys/class/gpio/unexport
 
 ```
  echo 1 > /sys/class/gpio/gpio12_pe11/value
-
 ```
 
 仔细阅读内核文档sysfs gpio可以获得更多可用的特征及方法。[Documentation/gpio/sysfs.txt](https://www.kernel.org/doc/Documentation/gpio/sysfs.txt)
+
+# 另请参阅
+
+* [JTAG](http://linux-sunxi.org/JTAG)
+* [MicroSD Breakout](http://linux-sunxi.org/MicroSD_Breakout)
+* [A10/PIO](http://linux-sunxi.org/A10/PIO)
+* [A13/PIO](http://linux-sunxi.org/A13/PIO)
+* [A20/PIO](http://linux-sunxi.org/A20/PIO)
+* [H3/PIO](http://linux-sunxi.org/H3/PIO)
+
+# 参考文献
+
+1. [https://github.com/torvalds/linux/blob/master/drivers/pinctrl/sunxi/pinctrl-sunxi.h\#L19](https://github.com/torvalds/linux/blob/master/drivers/pinctrl/sunxi/pinctrl-sunxi.h#L19)
+
+# 外部链接
+
+* [ALSA Development List](http://www.spinics.net/lists/alsa-devel/msg03646.html)
+* [Linux Kernel Doc on GPIO](https://git.kernel.org/cgit/linux/kernel/git/linusw/linux-gpio.git/tree/Documentation/gpio/gpio.txt)
+* [LinuxTV GPIO Pins Info](http://linuxtv.org/wiki/index.php/GPIO_pins)
+* [GPIO Tutorial - بیر رباتیک](http://bir-robotic.ir/blog/2014/04/21/%D8%B1%D8%A7%D9%87-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-gpio-%D8%A8%D8%AE%D8%B4-%D8%AF%D9%88%D9%85/)
+* [Access GPIO from Linux user space](http://falsinsoft.blogspot.de/2012/11/access-gpio-from-linux-user-space.html)
 
 
 
