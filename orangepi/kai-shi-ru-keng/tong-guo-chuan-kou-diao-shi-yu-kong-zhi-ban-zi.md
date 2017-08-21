@@ -200,7 +200,6 @@ b.将setline的值设置为/dev/ttyUSB0
 
 ![](/assets/clip_image043.jpg)
 
-![](file:///D:/Temp/msohtmlclip1/01/clip_image035.gif)
 
 **4.开始调试串口**
 
