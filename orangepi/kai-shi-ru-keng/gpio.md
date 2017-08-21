@@ -147,7 +147,7 @@ echo XX > /sys/class/gpio/unexport
 * [ALSA Development List](http://www.spinics.net/lists/alsa-devel/msg03646.html)
 * [Linux Kernel Doc on GPIO](https://git.kernel.org/cgit/linux/kernel/git/linusw/linux-gpio.git/tree/Documentation/gpio/gpio.txt)
 * [LinuxTV GPIO Pins Info](http://linuxtv.org/wiki/index.php/GPIO_pins)
-* [GPIO Tutorial - بیر رباتیک](http://bir-robotic.ir/blog/2014/04/21/%D8%B1%D8%A7%D9%87-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-gpio-%D8%A8%D8%AE%D8%B4-%D8%AF%D9%88%D9%85/)
+* [GPIO Tutorial - بیر رباتیک](http://bir-robotic.ir/blog/2014/04/21/راه-اندازی-gpio-بخش-دوم/)
 * [Access GPIO from Linux user space](http://falsinsoft.blogspot.de/2012/11/access-gpio-from-linux-user-space.html)
 
 
