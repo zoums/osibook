@@ -36,21 +36,21 @@ echo XX > /sys/class/gpio/export
 
 在此之后你就能成功访问PH18通过**/sys/class/gpio/gpio\*NUMBER\***\(在这里PH18是/sys/class/gpio/gpio242\).
 
-通过 /sys/class/gpio/gpio\*NUMBER\*/direction you can set the pin to**out**or**in**using
+通过 /sys/class/gpio/gpio\*NUMBER\*/direction 你能设置管脚的输入输出（in/out）。
 
 ```
 echo "out" > /sys/class/gpio/gpio*NUMBER*/direction
 ```
 
-and you can read/write the value with**/sys/class/gpio/gpio\*NUMBER\*/value**.
+然后你能通过 **/sys/class/gpio/gpio\*NUMBER\*/value 读写管脚。**
 
-When you are done unexport the pin with
+当你要取消访问管脚时，可以：
 
 ```
-echo XX 
->
- /sys/class/gpio/unexport
+echo XX > /sys/class/gpio/unexport
 ```
+
+注：XX是管脚计算出来的编号，具体看上面访问管脚部分。
 
 
 
