@@ -30,7 +30,7 @@ Q: 启动要按电源键多久？怎么好像我的板子一直没启动。。
 
 > A: 一般都是直接上电开机，启动不了建议看第一条问答。
 
-Q: 编译H5的SDK提示无法获取boot-resource.fex![](file:///C:\Users\13710\Documents\Tencent Files\1392293393\Image\Group\J_D[Q%29}KNYHHFZI%29I~1`J@C.jpg)![](/assets/20170821145819.jpg)
+Q: 编译H5的SDK提示无法获取boot-resource.fex![](/assets/20170821145819.jpg)
 
 > A: 先编UBOOT，不行再编译一次LINUX的选项。
 
