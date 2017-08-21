@@ -8,5 +8,49 @@ GPIO引脚没有特殊的定义，通常在默认情况下不使用。这样的�
 
 GPIO端口是由一组GPIO引脚（通常有8个PA、PC、PE等）组成，并且作为单个端口进行处理。
 
+# 在主线内核访问GPIO引脚通过sysfs用户空间
+
+GPIO能被来自用户空间的sysfs访问。要打开它你需要打开这个内核选项：CONFIG\_GPIO\_SYSFS
+
+建议在此之前检查/sys/class/gpio下是否有export和unexport，如果有，你不用重新编译内核而去使用sysfs。
+
+```
+Device Drivers  --->GPIO Support  --->/sys/class/gpio/... (sysfs interface)
+```
+
+要访问一个GPIO管脚你，你首先得导出它用如下命令：
+
+```
+echo XX > /sys/class/gpio/export
+```
+
+你需要通过计算获得所需要的针脚的数值XX，下面以PH18为实例：
+
+```
+(第二位字母按A-Z的排序值 - 1) * 32 + 针脚数值
+```
+
+例如 PH18 是 \( 8 - 1\) \* 32 + 18 = 224 + 18 = 242 \(H是第八个字母\)。
+
+简而言之，是PH18第二位字母H的排序8减去1乘以32再加引脚号。
+
+在此之后你就能成功访问PH18通过**/sys/class/gpio/gpio\*NUMBER\***\(在这里PH18是/sys/class/gpio/gpio242\).
+
+通过 /sys/class/gpio/gpio\*NUMBER\*/direction you can set the pin to**out**or**in**using
+
+```
+echo "out" > /sys/class/gpio/gpio*NUMBER*/direction
+```
+
+and you can read/write the value with**/sys/class/gpio/gpio\*NUMBER\*/value**.
+
+When you are done unexport the pin with
+
+```
+echo XX 
+>
+ /sys/class/gpio/unexport
+```
+
 
 
