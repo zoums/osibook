@@ -25,7 +25,22 @@ ubuntu15.04: wily
 ubuntu16.04:xenial
 ```
 
-
-
 顺带一提。。清华源也有。。
+
+出现访问不了的可以试试下面解决方法\(IPV6出问题用IPV4之类\)：
+
+[mirrors.ustc.edu.cn](https://mirrors.ustc.edu.cn/)由中国科学技术大学、中国科学技术大学网络信息中心支持，USTC LUG 维护。
+
+### 机器域名 {#机器域名}
+
+IPv4/v6: mirrors.ustc.edu.cn （能解析出教育网/电信/移动/v6地址）  
+v4only: mirrors4.ustc.edu.cn （能解析出教育网/电信/移动地址）  
+v6only: mirrors6.ustc.edu.cn
+
+在有些地方DNS会解析出电信地址，但使用教育网地址访问更快，这时可以通过修改 hosts 指定强制使用教育网地址访问。
+
+教育网IP：202.38.95.110  
+电　信IP：202.141.160.110  
+移　动IP：202.141.176.110  
+　IPv6：　2001:da8:d800:95::110
 
