@@ -8,6 +8,8 @@
 
 左上角![](/assets/menu.png)展开目录
 
+###### 主站： [**https://linux-sunxi.cn/**](https://linux-sunxi.cn/)
+
 ###### OSI Wiki : [https://zoums.github.io/](https://zoums.github.io/)
 
 ###### OSI BOOK ： [https://zoums.gitbooks.io/](https://zoums.gitbooks.io/)
