@@ -10,7 +10,7 @@
 sudo apt-get install chromium-browser
 ```
 
-Debian好像没有来着，不想自己编译去用ubuntu的。
+Debian好像没有来着，不想自己编译去用ubuntu的。（底部有教程）
 
 不过这个浏览器的每次出新版本都可能会有点问题。。。比如打不开。。
 
@@ -110,8 +110,6 @@ CHROMIUM_FLAGS="--ppapi-flash-path=/usr/lib/chromium-browser/pepper/libpepflashp
 然后回去 [https://launchpad.net/ubuntu/xenial/+source/chromium-browser](https://launchpad.net/ubuntu/xenial/+source/chromium-browser)
 
 在底部找到
-
-
 
 ![](/assets/chromium4.png)
 
