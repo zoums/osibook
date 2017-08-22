@@ -103,7 +103,30 @@ CHROMIUM_FLAGS="--ppapi-flash-path=/usr/lib/chromium-browser/pepper/libpepflashp
 
 ![](/assets/chromium2.png)
 
+然后底部找到下载
 
+![](/assets/chromium3.png)
+
+然后回去 [https://launchpad.net/ubuntu/xenial/+source/chromium-browser](https://launchpad.net/ubuntu/xenial/+source/chromium-browser)
+
+在底部找到
+
+
+
+![](/assets/chromium4.png)
+
+寻找如下依赖（实际上dpkg安装时提示缺啥就得补上），下载方法同上。
+
+```
+libgcrypt
+```
+
+然后我是放到一个目录下直接**sudo dpkg -i \*.deb**
+
+```
+cd chromium-browser
+sudo dpkg -i *.deb
+```
 
 ~~慢慢更。。后续补上~~\(已经补完\)
 
