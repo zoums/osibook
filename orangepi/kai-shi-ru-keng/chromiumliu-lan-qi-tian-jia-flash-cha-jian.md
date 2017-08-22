@@ -12,6 +12,8 @@ sudo apt-get install chromium-browser
 
 Debian好像没有来着，不想自己编译去用ubuntu的。
 
+不过这个浏览器的每次出新版本都可能会有点问题。。。比如打不开。。
+
 **12版本的找到一直链可以直接执行wget下载：**
 
 ```
@@ -82,6 +84,20 @@ CHROMIUM_FLAGS="--ppapi-flash-path=/usr/lib/chromium-browser/pepper/libpepflashp
 ```
 
 需要特别注意的是上面的 Chromium 浏览器参数中含有空格（Netflix 插件名称等），会导致 Chromium 启动脚本解析出错，所以这里需要修改 IFS 分隔符为 TAB 键，CHROMIUM\_FLAGS 变量中多个参数也必须以实际的 TAB 键（不可使用空格）隔开的，否则 Chromium 启动运行时会出现参数错误的问题。
+
+---
+
+### Debian安装（也就arm这么麻烦而已）：
+
+**这里只是个例子：**
+
+访问：[https://launchpad.net/ubuntu/xenial/+source/chromium-browser](https://launchpad.net/ubuntu/xenial/+source/chromium-browser)
+
+![](/assets/chromium.png)
+
+随便挑个版本,选armhf，64位的arm可选
+
+![](/assets/chromium1.png)
 
 ~~慢慢更。。后续补上~~\(已经补完\)
 
