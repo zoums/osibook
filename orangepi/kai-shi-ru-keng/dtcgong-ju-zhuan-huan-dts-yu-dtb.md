@@ -18,5 +18,5 @@ dtc -I dtb -O dts -o xxx.dts xxx.dtb
 
 找不到dtc可以用包管理器装device-tree-compiler
 
-于是H5的dtb文件是sys_config.fex转的貌似。。。于是参考下sys\__config.fex配置手册之类改改。
+于是H5的dtb文件是sys\_config.fex转的貌似。。。于是参考下sys\_config.fex配置手册之类改改。手册地址：链接: [http://pan.baidu.com/s/1qYt3aoO](http://pan.baidu.com/s/1qYt3aoO) 密码: csgb
 
