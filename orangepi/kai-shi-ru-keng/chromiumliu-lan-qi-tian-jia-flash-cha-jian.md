@@ -95,9 +95,15 @@ CHROMIUM_FLAGS="--ppapi-flash-path=/usr/lib/chromium-browser/pepper/libpepflashp
 
 ![](/assets/chromium.png)
 
-随便挑个版本,选armhf，64位的arm可选
+随便挑个版本,32位arm\(H3/H2+\)选armhf
 
 ![](/assets/chromium1.png)
+
+64位的arm\(A64/H5\)可选\(旧版本可能没有\)
+
+![](/assets/chromium2.png)
+
+
 
 ~~慢慢更。。后续补上~~\(已经补完\)
 
