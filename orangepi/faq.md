@@ -38,7 +38,7 @@ Q: 编译H5SDK的UBOOT出现libstdc++.so.6缺失![](/assets/20170821150221.png)
 
 > A: 安装lib32stdc++6这个包。
 
-Q: OrangePi 2G-IOT拨号后两分钟断连怎么办？
+Q: OrangePi 2G-IOT的Linux拨号后两分钟断连怎么办？
 
 > A: 在/etc/wvdial.conf后加上两行lcp-echo-interval = 0和lcp-echo-failure = 0还有/etc/ppp/options里面这俩项改成0值。
 
