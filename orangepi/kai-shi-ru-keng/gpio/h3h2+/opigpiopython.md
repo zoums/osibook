@@ -24,7 +24,7 @@ import OPi.GPIO as GPIO
 
 ![](/assets/opiz-pins-26-0.jpg)为了兼容RPI.GPIO，这个库按SUNXI的命名方式添加了第三个编号系统。
 
-### 基本用法
+#### 基本用法
 
 ```
 import OPi.GPIO as GPIO #加载模块
