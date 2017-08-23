@@ -44,7 +44,7 @@ Q: OrangePi 2G-IOT的Linux拨号后两分钟断连怎么办？
 
 Q: OrangePi 2G-IOT烧写NAND时工具一直停在Wait for port怎么解决？
 
-> A: 去设备管理器里选择设备，右击驱动，选择更新驱动程序&gt;浏览我计算机以查找驱动程序&gt;让我从计算机上的可用驱动程序列表中选取&gt;从磁盘安装&gt;选取{刷写工具目录/RDA\_Android\_Toolchain/USB Driver/USB-driver/{x64或x86电脑系统位数}/driver/rda\_enum.inf}的驱动&gt;RDA COM Enumerator&gt;然后可以看到Gadget Serial\(COM\*\)类似的驱动出现在端口（COM和LPT组）。
+> A: 去设备管理器里选择设备，找到驱动设备，右击设备，选择更新驱动程序&gt;浏览我计算机以查找驱动程序&gt;让我从计算机上的可用驱动程序列表中选取&gt;从磁盘安装&gt;选取{刷写工具目录/RDA\_Android\_Toolchain/USB Driver/USB-driver/{x64或x86电脑系统位数}/driver/rda\_enum.inf}的驱动&gt;RDA COM Enumerator&gt;然后可以看到Gadget Serial\(COM\*\)类似的驱动出现在端口（COM和LPT组）。
 
 Q: OrangePi PC的pwm1怎么不能使用？
 
