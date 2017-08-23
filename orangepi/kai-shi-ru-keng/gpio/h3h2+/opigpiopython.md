@@ -118,5 +118,7 @@ else:
     print('Input was LOW') #如果是1则低电平
 ```
 
+##### 更多信息可参照：
+
 [https://github.com/dneyirp/OrangePi\_GPIO\_A20\_H3](https://github.com/dneyirp/OrangePi_GPIO_A20_H3)
 
