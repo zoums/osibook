@@ -46,6 +46,10 @@ Q: OrangePi 2G-IOT烧写NAND时工具一直停在Wait for port怎么解决？
 
 > A: 去设备管理器里选择设备，右击驱动，选择更新驱动程序&gt;浏览我计算机以查找驱动程序&gt;让我从计算机上的可用驱动程序列表中选取&gt;从磁盘安装&gt;选取{刷写工具目录/RDA\_Android\_Toolchain/USB Driver/USB-driver/{x64或x86电脑系统位数}/driver/rda\_enum.inf}的驱动&gt;RDA COM Enumerator&gt;然后可以看到Gadget Serial\(COM\*\)类似的驱动出现在端口（COM和LPT组）。
 
+Q: OrangePi PC的pwm1怎么不能使用？
+
+> A: 在H3/H2+中，PWM1是不复存在的，后来的datasheet1.1修正了，pwm0又被调试口uart0复用了。（H5和A64本人暂时没去了解）
+
 日后有时间继续补上。
 
 似乎Gitbook能在每条右侧接近右侧调出讨论的地方。。。对哪句不满的可以发表下意见，或者你可以Fork然后发pull request\(程序员姿势\)
