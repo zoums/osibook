@@ -46,19 +46,25 @@ GPIO.output(12, 0)
 GPIO.output(12, False)
 
 #输入:
-GPIO.setup(PA01, GPIO.IN, pull_up_down=GPIO.PUD_UP) #上拉 3.3V (pull-up)
+GPIO.setup(PA02, GPIO.IN, pull_up_down=GPIO.PUD_UP) #上拉 3.3V (pull-up)
   # or
-GPIO.setup(channel, GPIO.IN, pull_up_down=GPIO.PUD_DOWN) #下拉0V (pull-down)
+GPIO.setup(PA02, GPIO.IN, pull_up_down=GPIO.PUD_DOWN) #下拉0V (pull-down)
 
-if GPIO.input(channel):
+if GPIO.input(PA02):
     print('Input was HIGH') #如果是true则高电平
 else:
     print('Input was LOW') #如果是False则低电平
 
-while GPIO.input(channel) == GPIO.LOW:
+while GPIO.input(PA02) == GPIO.LOW:
     print('Input was LOW')
 
-GPIO.cleanup() #清理管脚，结束程序时最好清理一下，防止意外
+#清理管脚，结束程序时最好清理一下，防止意外。
+#清理指定管脚
+GPIO.cleanup(PA01)
+GPIO.cleanup( (PA01, PA02) )
+GPIO.cleanup( [PA01, PA02] )
+#清理所有管脚
+GPIO.cleanup() 
 ```
 
 [https://github.com/rm-hull/OPi.GPIO](https://github.com/rm-hull/OPi.GPIO)
