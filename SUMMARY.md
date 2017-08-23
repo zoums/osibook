@@ -44,7 +44,7 @@
     * [WiringOP](orangepi/kai-shi-ru-keng/gpio/h5/wiringop.md)
   * [H3/H2+](orangepi/kai-shi-ru-keng/gpio/h3h2+.md)
     * [WiringOP\(H3\)](orangepi/kai-shi-ru-keng/gpio/h3h2+/wiringoph3.md)
-    * [OPI.GPIO\(Python\)](orangepi/kai-shi-ru-keng/gpio/h3h2+/opigpiopython.md)
+    * [GPIO-Python](orangepi/kai-shi-ru-keng/gpio/h3h2+/opigpiopython.md)
     * [Serial\(Python\)](orangepi/kai-shi-ru-keng/gpio/h3h2+/serialpython.md)
   * A64
   * [RDA8810PL](orangepi/kai-shi-ru-keng/gpio/rda8810pl.md)

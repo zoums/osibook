@@ -1,6 +1,69 @@
-# OPI.GPIO\(Python\)
+# GPIO-Python
 
-来源于： [https://github.com/rm-hull/OPi.GPIO](https://github.com/rm-hull/OPi.GPIO)
+## OPI.GPIO
 
+一个替代RPI.GPIO的库。
 
+### 安装
+
+```
+sudo pip install --upgrade OPi.GPIO
+```
+
+### API文档
+
+#### 加载模块
+
+```
+import OPi.GPIO as GPIO
+```
+
+这样做之后，你就可以在你的脚本里使用GPIO了。
+
+#### 引脚定义
+
+![](/assets/opiz-pins-26-0.jpg)为了兼容RPI.GPIO，这个库按SUNXI的命名方式添加了第三个编号系统。
+
+### 基本用法
+
+```
+import OPi.GPIO as GPIO #加载模块
+GPIO.setmode(GPIO.SUNXI) #以全志命名方式（另外还有 GPIO.BCM 和 GPIO.BOARD）
+GPIO.setup("PA01", GPIO.OUT) #设置PA01为输出
+
+#输出:
+#设置高电平:
+GPIO.output(PA01, GPIO.HIGH)
+# or
+GPIO.output(PA01, 1)
+# or
+GPIO.output(PA01, True)
+#设置低电平:
+GPIO.output(12, GPIO.LOW)
+# or
+GPIO.output(12, 0)
+# or
+GPIO.output(12, False)
+
+#输入:
+GPIO.setup(PA01, GPIO.IN, pull_up_down=GPIO.PUD_UP) #上拉 3.3V (pull-up)
+  # or
+GPIO.setup(channel, GPIO.IN, pull_up_down=GPIO.PUD_DOWN) #下拉0V (pull-down)
+
+if GPIO.input(channel):
+    print('Input was HIGH') #如果是true则高电平
+else:
+    print('Input was LOW') #如果是False则低电平
+
+while GPIO.input(channel) == GPIO.LOW:
+    print('Input was LOW')
+
+GPIO.cleanup() #清理管脚，结束程序时最好清理一下，防止意外
+```
+
+[https://github.com/rm-hull/OPi.GPIO](https://github.com/rm-hull/OPi.GPIO)
+
+## pyA20 for A20/H2/H3
+
+[https://github.com/dneyirp/OrangePi\_GPIO\_A20\_H3](https://github.com/dneyirp/OrangePi_GPIO_A20_H3)
 
