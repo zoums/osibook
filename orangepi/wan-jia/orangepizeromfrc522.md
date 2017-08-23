@@ -50,5 +50,11 @@ OrangePi Zero的接法（用SPI1，因为SPI0被nor flash占用）
 python ./OrangePiZeroMFRC522/MFRC522-python/Read.py
 ```
 
-![](https://github.com/BiTinerary/OrangePiZeroMFRC522/raw/master/gitImgs/821.jpg)
+##### ![](https://github.com/BiTinerary/OrangePiZeroMFRC522/raw/master/gitImgs/821.jpg)
+
+---
+
+##### 更多信息可访问
+
+[https://github.com/BiTinerary/OrangePiZeroMFRC522](https://github.com/BiTinerary/OrangePiZeroMFRC522)
 
