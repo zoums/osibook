@@ -64,10 +64,16 @@ GPIO.cleanup(PA01)
 GPIO.cleanup( (PA01, PA02) )
 GPIO.cleanup( [PA01, PA02] )
 #清理所有管脚
-GPIO.cleanup() 
+GPIO.cleanup()
 ```
 
+更多信息可参照：
+
 [https://github.com/rm-hull/OPi.GPIO](https://github.com/rm-hull/OPi.GPIO)
+
+文档：
+
+[https://opi-gpio.readthedocs.io](https://opi-gpio.readthedocs.io)
 
 ## pyA20 for A20/H2/H3
 
