@@ -44,5 +44,5 @@ OrangePi Zero的接法（用SPI1，因为SPI0被nor flash占用）
 
 其他OPI H2+/H3 系列板子自行查看SPI1接口定义连接，想用SPI0去MFRC522-python目录找到**MFRC522.py**文件在第110行把spidev1.0改成spidev0.0。
 
-
+![](https://github.com/BiTinerary/OrangePiZeroMFRC522/raw/master/gitImgs/821.jpg)
 
