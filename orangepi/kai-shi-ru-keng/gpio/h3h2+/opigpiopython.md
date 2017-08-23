@@ -27,6 +27,9 @@ import OPi.GPIO as GPIO
 #### 基本用法
 
 ```
+import os
+import sys
+
 import OPi.GPIO as GPIO #加载模块
 GPIO.setmode(GPIO.SUNXI) #以全志命名方式（另外还有 GPIO.BCM 和 GPIO.BOARD）
 GPIO.setup("PA01", GPIO.OUT) #设置PA01为输出
@@ -67,15 +70,53 @@ GPIO.cleanup( [PA01, PA02] )
 GPIO.cleanup()
 ```
 
-更多信息可参照：
+##### 更多信息可参照：
 
 [https://github.com/rm-hull/OPi.GPIO](https://github.com/rm-hull/OPi.GPIO)
 
-文档：
+##### 文档：
 
 [https://opi-gpio.readthedocs.io](https://opi-gpio.readthedocs.io)
 
+---
+
 ## pyA20 for A20/H2/H3
+
+### 安装
+
+```
+git clone https://github.com/dneyirp/OrangePi_GPIO_A20_H3.git
+cd OrangePi_GPIO_A20_H3
+python setup.py install
+```
+
+### 使用
+
+```
+import os
+import sys
+
+#加载导入模块
+from pyA20.gpio import gpio
+from pyA20.gpio import port
+
+gpio.init() #初始化GPIO
+gpio.setcfg(port.PA12, gpio.OUTPUT) #配置输出
+
+gpio.output(led, 1) #设置高电平
+gpio.output(led, 0) #设置低电平
+
+gpio.setcfg(port.PA01, gpio.INPUT) #配置输入
+
+#上拉或下拉
+gpio.pullup(port.PA01, gpio.PULLUP)
+#gpio.pullup(port.PA01, gpio.PULLDOWN)
+
+if gpio.input(port.PA01) == 0: #由于是上拉，结果反转(做按钮)
+    print('Input was HIGH') #如果是0则高电平
+else:
+    print('Input was LOW') #如果是1则低电平
+```
 
 [https://github.com/dneyirp/OrangePi\_GPIO\_A20\_H3](https://github.com/dneyirp/OrangePi_GPIO_A20_H3)
 
