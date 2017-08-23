@@ -42,6 +42,10 @@ Q: OrangePi 2G-IOT拨号后两分钟断连怎么办？
 
 > A: 在/etc/wvdial.conf后加上两行lcp-echo-interval = 0和lcp-echo-failure = 0还有/etc/ppp/options里面这俩项改成0值。
 
+Q: OrangePi 2G-IOT烧写NAND时工具一直停在Wait for port怎么解决？
+
+A: 去设备管理器里选择设备，右击驱动，选择更新驱动程序&gt;浏览我计算机以查找驱动程序&gt;让我从计算机上的可用驱动程序列表中选取&gt;从磁盘安装&gt;
+
 日后有时间继续补上。
 
 似乎Gitbook能在每条右侧接近右侧调出讨论的地方。。。对哪句不满的可以发表下意见，或者你可以Fork然后发pull request\(程序员姿势\)

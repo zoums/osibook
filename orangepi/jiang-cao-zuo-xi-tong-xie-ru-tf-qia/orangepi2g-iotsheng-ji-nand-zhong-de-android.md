@@ -45,7 +45,7 @@ OrangePi 2G-IOT提供了两种方式的 Android 启动, 分别为 SD 卡启动�
 
       Nand 升级需要使用 USB 线进行连接，因此安装必要的驱动。
 
-      驱动位于 \*/OrangePi\_2G-IOT\_Toolschain/USB\_Driver/USB-driver"
+      驱动位于 */OrangePi_2G-IOT/Toolschain/USB Driver/USB-driver"
 
       请根据 Windows 的位数进行安装，驱动提供了 32bit 和 64bit 两个版本。
 
