@@ -36,9 +36,11 @@ ser.isOpen() #查看这个串口是否已经被打开
 
 ### 参考链接
 
-[http://shenwang.blog.ustc.edu.cn/python-%E4%B8%B2%E5%8F%A3%E6%A8%A1%E5%9D%97pyserial/](http://shenwang.blog.ustc.edu.cn/python-%E4%B8%B2%E5%8F%A3%E6%A8%A1%E5%9D%97pyserial/)
+[http://shenwang.blog.ustc.edu.cn/python-%E4%B8%B2%E5%8F%A3%E6%A8%A1%E5%9D%97pyserial/](http://shenwang.blog.ustc.edu.cn/python-串口模块pyserial/)
 
- [https://github.com/fsilvasampaio/py\_read\_serial/blob/master/readserial.py](https://github.com/fsilvasampaio/py_read_serial/blob/master/readserial.py)
+[https://github.com/fsilvasampaio/py\_read\_serial/blob/master/readserial.py](https://github.com/fsilvasampaio/py_read_serial/blob/master/readserial.py)
 
 [http://pythonhosted.org/pyserial/](http://pythonhosted.org/pyserial/)
+
+[http://blog.csdn.net/xhao014/article/details/7640568](http://blog.csdn.net/xhao014/article/details/7640568)
 
