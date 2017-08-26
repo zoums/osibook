@@ -22,7 +22,7 @@
 邮箱：m13535630856@163.com
 ```
 
-要提交修改（pull request）来 https://coding.net/u/zoums/p/zoums/git 好了，。这里是主站，，，
+要提交修改（pull request）来 [https://coding.net/u/zoums/p/zoums/git](https://coding.net/u/zoums/p/zoums/git) 好了，。这里是主站，，，或者通过各种渠道发消息给我。。
 
 ###### 祝各位好运，本人明年要高考，编纂进度慢比牛。。。。。。。。。。。。。。蜗牛。
 
