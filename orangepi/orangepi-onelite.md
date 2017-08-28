@@ -39,7 +39,7 @@
 
 | 接口定义 |
 | :--- |
-| ![](/assets/gpio/h3gpio.jpg) |
+| ![](/assets/gpio/h3gpio.png) |
 
 * [OPI官网](http://www.orangepi.cn)
 * [官方Github](https://github.com/orangepi-xunlong)
