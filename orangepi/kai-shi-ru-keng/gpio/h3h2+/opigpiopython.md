@@ -101,7 +101,7 @@ from pyA20.gpio import gpio
 from pyA20.gpio import port
 
 gpio.init() #初始化GPIO
-gpio.setcfg(port.PA12, gpio.OUTPUT) #配置输出
+gpio.setcfg(port.PA01, gpio.OUTPUT) #配置输出
 
 gpio.output(port.PA01, 1) #设置高电平
 gpio.output(port.PA01, 0) #设置低电平
