@@ -54,3 +54,20 @@ sudo apt-get install ttf-wqy-zenhei
 
 如需HOME文件夹也为中文，可以删除/home/orangepi/.config下面文件夹中文件user-dirs.dirs和user-dirs.locale然后重启。
 
+#### 附： 
+
+在Linux中通过locale来设置程序运行的不同语言环境，locale由 ANSI C提供支持。locale的命名规则为\_.，如zh\_CN.GBK，zh代表中文， CN代表大陆地区，GBK表示字符集。在locale环境中，有一组变量，代表国际化环境中的不同设置：
+
+```
+LC_COLLATE，定义该环境的排序和比较规则
+LC_CTYPE，用于字符分类和字符串处理，控制所有字符的处理方式，包括字符编码，字符是单字节还是多字节，如何打印等。是最重要的一个环境变量。 LC_MONETARY，货币格式
+LC_NUMERIC，非货币的数字显示格式
+LC_TIME，时间和日期格式
+LC_MESSAGES，提示信息的语言。
+另外还有一个LANGUAGE参数，它与LC_MESSAGES相似，但如果该参数一旦设置，则LC_MESSAGES参数就会失效。 LANGUAGE参数可同时设置多种语言信息，如LANGUAGE="zh_CN.GB18030:zh_CN.GB2312:zh_CN"。
+LANG，LC_*的默认值，是最低级别的设置，如果LC_*没有设置，则使用该值。类似于 LC_ALL
+LC_ALL，它是一个宏，如果该值设置了，则该值会覆盖所有LC_*的设置值。注意，LANG的值不受该宏影响
+```
+
+
+
