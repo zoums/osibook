@@ -24,6 +24,7 @@
   * [修改显示分辨率](orangepi/kai-shi-ru-keng/xiu-gai-xian-shi-fen-bian-lv.md)
   * [系统界面汉化和安装中文语言](orangepi/kai-shi-ru-keng/xi-tong-jie-mian-han-hua-he-an-zhuang-zhong-wen-yu-yan.md)
   * [Chromium浏览器添加Flash插件](orangepi/kai-shi-ru-keng/chromiumliu-lan-qi-tian-jia-flash-cha-jian.md)
+  * [Armbian修改时间和时区](orangepi/kai-shi-ru-keng/armbianxiu-gai-shi-jian-he-shi-qu.md)
 * [进阶](orangepi/kai-shi-ru-keng/jin-jie.md)
   * [dtc工具转换dts与dtb](orangepi/kai-shi-ru-keng/dtcgong-ju-zhuan-huan-dts-yu-dtb.md)
   * [script.bin的配置与转换](orangepi/kai-shi-ru-keng/scriptbinde-pei-zhi-yu-zhuan-huan.md)
