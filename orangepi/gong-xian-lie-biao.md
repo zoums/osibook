@@ -1,8 +1,8 @@
-|  | [zoums](https://coding.net/u/zoums) |
+| ![](/assets/member/zoums.jpg) | [zoums](https://coding.net/u/zoums) |
 | :--- | :--- |
 
 
-| ![](/assets/member/wanglifree.png) | [wanglifree](https://www.gitbook.com/book/zoums/osi-book/edit#) |
+| ![](/assets/member/wanglifree.png) | [wanglifree](https://coding.net/u/wanglifree) |
 | :--- | :--- |
 
 
