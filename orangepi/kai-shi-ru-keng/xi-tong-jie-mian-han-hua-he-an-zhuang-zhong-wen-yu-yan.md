@@ -6,13 +6,21 @@
 
 ##### 有删改
 
-#### 适用于Ubuntu:
+### 适用于Ubuntu:
 
 然后打开System-Adminstration\(或者settings\)-Language support，选Language选项卡然后按Install/Remove Language，将Chinese\(China\)中文简体打钩然后按Apply，安装结束后，将汉语Chinese，拖到English上面重启即可。可参照下面这个链接
 
 [http://jingyan.baidu.com/article/36d6ed1f2e95f61bce488353.html](http://jingyan.baidu.com/article/36d6ed1f2e95f61bce488353.html)
 
-#### 上面不行的可以试试这样：
+### 适用于Debian系:
+
+```
+dpkp-reconfigure locales
+```
+
+空格选择，回车确定，两次都选择zh\_CN.UTF-8 。
+
+### 上面不行的可以试试这样：
 
 打开终端terminal,输入如下命令后回车，
 
@@ -54,7 +62,7 @@ sudo apt-get install ttf-wqy-zenhei
 
 如需HOME文件夹也为中文，可以删除/home/orangepi/.config下面文件夹中文件user-dirs.dirs和user-dirs.locale然后重启。
 
-#### 附： 
+### 附：
 
 在Linux中通过locale来设置程序运行的不同语言环境，locale由 ANSI C提供支持。locale的命名规则为\_.，如zh\_CN.GBK，zh代表中文， CN代表大陆地区，GBK表示字符集。在locale环境中，有一组变量，代表国际化环境中的不同设置：
 
