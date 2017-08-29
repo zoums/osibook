@@ -67,6 +67,7 @@
   * [我的镜像](orangepi/fu-lu-1/wo-de-jing-xiang.md)
   * [OrangePi\_2G-IOT](orangepi/fu-lu-1/orangepi2g-iot.md)
   * [如何使用AV/耳机插孔听音乐](orangepi/fu-lu-1/ru-he-shi-yong-av-er-ji-cha-kong-ting-yin-le.md)
+* [贡献列表](orangepi/gong-xian-lie-biao.md)
 
 ## Maya
 
