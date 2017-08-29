@@ -15,7 +15,7 @@
 ### 适用于Debian系:
 
 ```
-dpkp-reconfigure locales
+sudo dpkp-reconfigure locales
 ```
 
 空格选择，回车确定，两次都选择zh\_CN.UTF-8 。
