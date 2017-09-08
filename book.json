@@ -16,3 +16,12 @@
         }
     }
 }
+
+{
+    "plugins": ["sitemap"],
+    "pluginsConfig": {
+        "sitemap": {
+            "hostname": "https://osi.linux-sunxi.cn/"
+        }
+    }
+}
