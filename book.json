@@ -1,18 +1,33 @@
 {
-    "plugins": [ "theme-api" ],
-    "pluginsConfig": {
-        "theme-api": {
-            "languages": [
-                {
-                    "lang": "js",
-                    "name": "JavaScript",
-                    "default": true
-                },
-                {
-                    "lang": "go",
-                    "name": "Go"
-                }
-            ]
+  "pluginsConfig": {
+    "theme-api": {
+      "languages": [
+        {
+          "lang": "js",
+          "name": "JavaScript",
+          "default": true
+        },
+        {
+          "lang": "go",
+          "name": "Go"
         }
+      ]
+    },
+	"disqus": {
+      "shortName": "osibook"
+    },
+    "github": {
+      "url": "https://github.com/zoums/osibook"
+    },
+    "editlink": {
+      "base": "https://osi.linux-sunxi.cn",
+      "label": "编辑本页"
+    },
+    "baidu": {
+        "token": "890baac869f73b83d85d07247c357ff0"
+    },
+    "sitemap": {
+        "hostname": "https://osi.linux-sunxi.cn/"
     }
+  }
 }
