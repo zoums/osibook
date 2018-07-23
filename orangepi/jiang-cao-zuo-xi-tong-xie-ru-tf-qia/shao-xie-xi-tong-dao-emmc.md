@@ -8,7 +8,11 @@
 
 ##### 线刷：
 
-下载phonixsuite工具，按住板子上的升级键。。然后连接电脑用phonixsuite工具烧写，驱动可以去网上找，还有个[Zadig](http://zadig.akeo.ie/)工具，可以安装这个驱动，用法看下面。有些板子没升级键，比如PC PLUS/ZERO PLUS2系列，要么自己找原理图找出UBOOT脚，把它连接到GND让其低电平就能进入刷写模式，还有一个方法是刷特制的sd卡镜像进入刷写模式（[地址](https://raw.githubusercontent.com/zoums/fel-mass-storage/h5-support/fel-sdboot.img)，仅支持H3，H5的有空再制作）。
+1.在WINDOWS上\(其他系统好像有个LiveSuit工具，不知道能不能用）下载phonixsuite工具.
+
+2.按住板子上的升级键。安装驱动，驱动可以去网上找，还有个[Zadig](http://zadig.akeo.ie/)工具，可以安装这个驱动，用法看下面。有些板子没升级键，比如PC PLUS/ZERO PLUS2系列，要么自己找原理图找出UBOOT脚，把它连接到GND让其低电平就能进入刷写模式，还有一个方法是刷特制的sd卡镜像进入刷写模式（[地址](https://raw.githubusercontent.com/zoums/fel-mass-storage/h5-support/fel-sdboot.img)，仅支持H3，H5的有空再制作）。
+
+3.用phonixsuite工具选择镜像，连接电脑上电，烧写。
 
 ## linux
 
@@ -45,6 +49,12 @@ emmc可以ls /dev/mmcblk\*来看，看到有boot0和boot1后缀的mmcblk1就是e
 没图。。。没图。。。没图。。。。等哪天旁边有板子了就上图。。。。。
 
 ### 线刷LINUX（仅适用H3/H5部分系统）
+
+按住板子上的升级键。。然后连接电脑，驱动可以去网上找，还有个[Zadig](http://zadig.akeo.ie/)工具，可以安装这个驱动，用法看下面。有些板子没升级键，比如PC PLUS/ZERO PLUS2系列，要么自己找原理图找出UBOOT脚，把它连接到GND让其低电平就能进入刷写模式，还有一个方法是刷特制的sd卡镜像进入刷写模式（[地址](https://raw.githubusercontent.com/zoums/fel-mass-storage/h5-support/fel-sdboot.img)，仅支持H3，H5的有空再制作）。
+
+##### Zadig使用
+
+
 
 
 
