@@ -54,7 +54,13 @@ emmc可以ls /dev/mmcblk\*来看，看到有boot0和boot1后缀的mmcblk1就是e
 
 1. 进入刷写模式并装好驱动后，下载挂载emmc到microusb口的工具：
    > git clone -b h5-support https://github.com/zoums/fel-mass-storage.git
-2. 
+2. 根据各自平台来选择对应脚本和程序。
+
+> Linux 和 OS X
+> 编译安装[](https://github.com/linux-sunxi/sunxi-tools)sunxi-tools
+> \(optional\) add udev rule to allow access to USB devices to users belonging to \(previously created\) "sunxi-fel" group:
+> SUBSYSTEMS=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="efe8", GROUP="sunxi-fel"
+
 ##### Zadig使用
 
 连接进入fel线刷模式的板子到电脑。
