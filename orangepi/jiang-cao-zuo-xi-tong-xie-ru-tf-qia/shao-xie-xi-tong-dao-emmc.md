@@ -38,3 +38,7 @@ emmc可以ls /dev/mmcblk\*来看，看到有boot0和boot1后缀的mmcblk1就是e
 
 没图。。。没图。。。没图。。。。等哪天旁边有板子了就上图。。。。。
 
+### 线刷LINUX（仅适用H3/H5）
+
+
+
