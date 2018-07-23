@@ -22,17 +22,19 @@ linux是烧镜像到sdcard启动，OPI官方系统可以执行
 
 > `(H3)`
 >
-> `wget `[`https://raw.githubusercontent.com/zoums/osibook/master/assets/files/install_to_emmc.sh`](https://raw.githubusercontent.com/zoums/osibook/master/assets/files/install_to_emmc.sh)
+> `wget`[`https://raw.githubusercontent.com/zoums/osibook/master/assets/files/install_to_emmc.sh`](https://raw.githubusercontent.com/zoums/osibook/master/assets/files/install_to_emmc.sh)
 >
 > `chmod +x install__to__emmc.sh && ./install__to__emmc.sh`
 >
 > `(H5)`
 >
-> `wget `[`https://raw.githubusercontent.com/zoums/osibook/master/assets/files/OrangePi_install2EMMC.sh`](https://raw.githubusercontent.com/zoums/osibook/master/assets/files/OrangePi_install2EMMC.sh)
+> `wget`[`https://raw.githubusercontent.com/zoums/osibook/master/assets/files/OrangePi_install2EMMC.sh`](https://raw.githubusercontent.com/zoums/osibook/master/assets/files/OrangePi_install2EMMC.sh)
 >
 > `chmod +x OrangePi_install2EMMC.sh && ./OrangePi_install2EMMC.sh`
 
 是armbian之类的可以执行nand-sata-install 实在不行又想尝试一下可以把卡或镜像dd到emmc
+
+emmc可以ls /dev/mmcblk\*来看，看到有boot0和boot1后缀的mmcblk1就是emmc了（有些是mmcblk0，视情况而定）
 
 没图。。。没图。。。没图。。。。等哪天旁边有板子了就上图。。。。。
 
