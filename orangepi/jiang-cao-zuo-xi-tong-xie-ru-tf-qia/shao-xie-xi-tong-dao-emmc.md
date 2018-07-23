@@ -1,4 +1,4 @@
-# OrangePi烧写系统到EMMC {#-}
+# OrangePi烧写系统到EMMC\(全志\) {#-}
 
 # 安卓 {#-}
 
