@@ -53,9 +53,8 @@ emmc可以ls /dev/mmcblk\*来看，看到有boot0和boot1后缀的mmcblk1就是e
 按住板子上的升级键。。然后连接电脑，驱动可以去网上找，还有个[Zadig](http://zadig.akeo.ie/)工具，可以安装这个驱动，用法看下面。有些板子没升级键，比如PC PLUS/ZERO PLUS2系列，要么自己找原理图找出UBOOT脚，把它连接到GND让其低电平就能进入刷写模式，还有一个方法是刷特制的sd卡镜像进入刷写模式（[地址](https://raw.githubusercontent.com/zoums/fel-mass-storage/h5-support/fel-sdboot.img)，仅支持H3，H5的有空再制作）。
 
 1. 进入刷写模式并装好驱动后，下载挂载emmc到microusb口的工具：
-git clone -b h5-support https://github.com/zoums/fel-mass-storage.git
+   > git clone -b h5-support https://github.com/zoums/fel-mass-storage.git
 2. 
-
 ##### Zadig使用
 
 连接进入fel线刷模式的板子到电脑。
