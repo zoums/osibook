@@ -8,7 +8,7 @@
 
 ##### 线刷：
 
-下载phonixsuite工具，按住板子上的升级键。。然后连接电脑用phonixsuite工具烧写，有些板子没升级键，比如PC PLUS/ZERO PLUS2系列，要么自己找原理图找出UBOOT脚，把它连接到GND让其低电平就能进入刷写模式，还有一个方法是刷特制的sd卡镜像进入刷写模式。
+下载phonixsuite工具，按住板子上的升级键。。然后连接电脑用phonixsuite工具烧写，驱动可以去网上找，有些板子没升级键，比如PC PLUS/ZERO PLUS2系列，要么自己找原理图找出UBOOT脚，把它连接到GND让其低电平就能进入刷写模式，还有一个方法是刷特制的sd卡镜像进入刷写模式。
 
 ## linux
 
