@@ -1,10 +1,16 @@
 # OrangePi烧写系统到EMMC\(全志\) {#-}
 
-# 安卓 {#-}
+## 安卓
 
-卡量产烧入sdcard启动会有进度条。。等进度条完了拔卡重启就行或者phonixsuite按住板子上的升级键。。然后连接电脑用phonixsuite工具烧写，有些板子没升级键，比如PC PLUS/ZERO PLUS2系列，要么自己找原理图找出UBOOT脚，把它连接到GND让其低电平就能进入刷写模式，还有一个方法是刷特制的sd卡镜像进入刷写模式。
+##### 卡刷：
 
-# linux {#linux}
+卡量产烧入sdcard启动会有进度条。。等进度条完了拔卡重启就行。
+
+##### 线刷：
+
+下载phonixsuite工具，按住板子上的升级键。。然后连接电脑用phonixsuite工具烧写，有些板子没升级键，比如PC PLUS/ZERO PLUS2系列，要么自己找原理图找出UBOOT脚，把它连接到GND让其低电平就能进入刷写模式，还有一个方法是刷特制的sd卡镜像进入刷写模式。
+
+## linux
 
 linux是烧镜像到sdcard启动，OPI官方系统可以执行
 
@@ -38,7 +44,7 @@ emmc可以ls /dev/mmcblk\*来看，看到有boot0和boot1后缀的mmcblk1就是e
 
 没图。。。没图。。。没图。。。。等哪天旁边有板子了就上图。。。。。
 
-### 线刷LINUX（仅适用H3/H5）
+### 线刷LINUX（仅适用H3/H5部分系统）
 
 
 
