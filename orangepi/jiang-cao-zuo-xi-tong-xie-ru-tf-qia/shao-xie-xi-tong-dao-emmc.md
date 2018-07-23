@@ -65,7 +65,8 @@ emmc可以ls /dev/mmcblk\*来看，看到有boot0和boot1后缀的mmcblk1就是e
    >
    > 2） Windows ：  
    > 直接执行脚本start-h3.bat或者start-h5.bat分别对应板子的H3/H5平台。
-3. 
+
+3. 执行脚本后如果不出意外，在电脑上既可以发现新的磁盘，可以通过烧卡的win32diskmgr等工具把镜像像烧写到sd卡那样烧写到emmc，但是目前似乎只有armbian可以这样，其他系统自己测试。
 
 ##### Zadig使用
 
